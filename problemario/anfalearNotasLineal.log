@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.7)  11 JUL 2025 16:45
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.7)  22 JUL 2025 12:16
  restricted system commands enabled.
 **anfalearNotasLineal.tex
 (./anfalearNotasLineal.tex
@@ -1850,7 +1850,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 [14]
-Overfull \hbox (13.72708pt too wide) in paragraph at lines 65--65
+Overfull \hbox (13.72708pt too wide) in paragraph at lines 67--67
  [][] [][]\TU/lmr/m/n/12 Fi-gu-ra ori-gi-nal (Su-do-ku 3D cu-be, []$\TU/lmtt/m/
 n/12 https://texample.net/tikz/examples/sudoku-[]3d-[]cube$[]\TU/lmr/m/n/12 )[]
  []  
@@ -1934,7 +1934,7 @@ f>
 jo-eps-converted-to.pdf representacioncomplejo.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<representacioncomplejo-eps-converted-to.pdf, id=1285, 662.475pt x 479.7925pt>
+<representacioncomplejo-eps-converted-to.pdf, id=1280, 662.475pt x 479.7925pt>
 File: representacioncomplejo-eps-converted-to.pdf Graphic file (type pdf)
 <use representacioncomplejo-eps-converted-to.pdf>
 Package luatex.def Info: representacioncomplejo-eps-converted-to.pdf  used on i
@@ -2028,45 +2028,56 @@ Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no ] (U+005D) in font nullfont!
 ]
 
-LaTeX Info: Redefining \. on input line 882.
-LaTeX Info: Redefining \% on input line 882.
+LaTeX Info: Redefining \. on input line 782.
+LaTeX Info: Redefining \% on input line 782.
 [32]
 
-LaTeX Info: Redefining \. on input line 945.
-LaTeX Info: Redefining \% on input line 945.
+LaTeX Info: Redefining \. on input line 914.
+LaTeX Info: Redefining \% on input line 914.
 [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Info: Redefining \. on input line 1038.
-LaTeX Info: Redefining \% on input line 1038.
+LaTeX Info: Redefining \. on input line 985.
+LaTeX Info: Redefining \% on input line 985.
 [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Info: Redefining \. on input line 1038.
-LaTeX Info: Redefining \% on input line 1038.
+LaTeX Info: Redefining \. on input line 997.
+LaTeX Info: Redefining \% on input line 997.
 [35]
 
-LaTeX Info: Redefining \. on input line 1058.
-LaTeX Info: Redefining \% on input line 1058.
+LaTeX Info: Redefining \. on input line 1087.
+LaTeX Info: Redefining \% on input line 1087.
 [36]
 
-LaTeX Info: Redefining \. on input line 1240.
-LaTeX Info: Redefining \% on input line 1240.
+LaTeX Info: Redefining \. on input line 1187.
+LaTeX Info: Redefining \% on input line 1187.
 [37]
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1243.
+LaTeX Info: Redefining \% on input line 1243.
+[38]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1240.
-LaTeX Info: Redefining \% on input line 1240.
-[38]
-
-LaTeX Info: Redefining \. on input line 1302.
-LaTeX Info: Redefining \% on input line 1302.
+LaTeX Info: Redefining \. on input line 1308.
+LaTeX Info: Redefining \% on input line 1308.
 [39]
 
 
@@ -2074,40 +2085,21 @@ LaTeX Info: Redefining \% on input line 1302.
 
 
 
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
 
 
-
-
-
-
-
-
-LaTeX Info: Redefining \. on input line 1448.
-LaTeX Info: Redefining \% on input line 1448.
-[40]
-
-LaTeX Info: Redefining \. on input line 1454.
-LaTeX Info: Redefining \% on input line 1454.
-[41]
-
-
-
-
-
-
-
-LaTeX Info: Redefining \. on input line 1623.
-LaTeX Info: Redefining \% on input line 1623.
-[42]
-
-LaTeX Info: Redefining \. on input line 1623.
-LaTeX Info: Redefining \% on input line 1623.
-[43]) (./vectoresrn.tex
+LaTeX Info: Redefining \. on input line 1390.
+LaTeX Info: Redefining \% on input line 1390.
+[40]) (./vectoresrn.tex
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[44
+[41]
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[42
 
 ]
 Capítulo 3.
@@ -2122,14 +2114,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .1'
-
-
-[45
-
-]
-Package pgfplots info on input line 88: Using 'lua backend=false' for plot 0 (t
+Package pgfplots info on input line 86: Using 'lua backend=false' for plot 0 (t
 ype 'quiver'): plot handler does not support LUA.
 
+Overfull \vbox (52.74028pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.74028pt too high) has occurred while \output is active []
+
+
+
+
+
+
+
+[43]
 
 
 
@@ -2139,21 +2138,21 @@ ype 'quiver'): plot handler does not support LUA.
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .3'
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 126.
-Package pgfplots info on input line 153: Using 'lua backend=false' for plot 0 (
+t line 124.
+Package pgfplots info on input line 151: Using 'lua backend=false' for plot 0 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 163: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 161: Using 'lua backend=false' for plot 1 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 173: Using 'lua backend=false' for plot 2 (
+Package pgfplots info on input line 171: Using 'lua backend=false' for plot 2 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 205: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 203: Using 'lua backend=false' for plot 0 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 215: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 213: Using 'lua backend=false' for plot 1 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 225: Using 'lua backend=false' for plot 2 (
+Package pgfplots info on input line 223: Using 'lua backend=false' for plot 2 (
 type 'quiver'): plot handler does not support LUA.
 
-Overfull \hbox (19.67802pt too wide) in paragraph at lines 231--232
+Overfull \hbox (19.67802pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
@@ -2163,15 +2162,15 @@ Overfull \hbox (19.67802pt too wide) in paragraph at lines 231--232
 
 
 
-Package pgfplots info on input line 257: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 255: Using 'lua backend=false' for plot 0 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 267: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 265: Using 'lua backend=false' for plot 1 (
 type 'quiver'): plot handler does not support LUA.
 
 
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
-[46]
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+[44]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.5'
 Missing character: There is no ° (U+00B0) in font cmr8!
 Missing character: There is no ° (U+00B0) in font cmr8!
@@ -2181,10 +2180,10 @@ Missing character: There is no ° (U+00B0) in font cmr8!
 
 
 
-Package pgfplots info on input line 356: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 354: Using 'lua backend=false' for plot 0 (
 type 'quiver'): plot handler does not support LUA.
 
-Overfull \hbox (4.6794pt too wide) in paragraph at lines 369--370
+Overfull \hbox (4.6794pt too wide) in paragraph at lines 367--368
  [][] 
  []
 
@@ -2199,15 +2198,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 373.
-LaTeX Info: Redefining \% on input line 373.
-[47]
-Package pgfplots info on input line 404: Using 'lua backend=false' for plot 0 (
+[45]
+Package pgfplots info on input line 402: Using 'lua backend=false' for plot 0 (
 type 'quiver'): plot handler does not support LUA.
-Package pgfplots info on input line 410: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 408: Using 'lua backend=false' for plot 1 (
 type 'quiver'): plot handler does not support LUA.
 
-Overfull \hbox (4.6794pt too wide) in paragraph at lines 413--414
+Overfull \hbox (4.6794pt too wide) in paragraph at lines 411--412
  [][] 
  []
 
@@ -2219,19 +2216,17 @@ Overfull \hbox (4.6794pt too wide) in paragraph at lines 413--414
 
 
 
-LaTeX Info: Redefining \. on input line 447.
-LaTeX Info: Redefining \% on input line 447.
-[48]
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
+[46]
 
-LaTeX Info: Redefining \. on input line 556.
-LaTeX Info: Redefining \% on input line 556.
-[49]
-Overfull \hbox (1.30046pt too wide) detected at line 625
+[47]
+Overfull \hbox (1.30046pt too wide) detected at line 623
 []
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 662--663
+Underfull \hbox (badness 6477) in paragraph at lines 660--661
 []\TU/lmr/m/n/12 Ecua-ción del plano usan-do el pun-to
  []
 
@@ -2246,9 +2241,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 675.
-LaTeX Info: Redefining \% on input line 675.
-[50]
+LaTeX Info: Redefining \. on input line 673.
+LaTeX Info: Redefining \% on input line 673.
+[48]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.19'
 
 
@@ -2258,9 +2253,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.19'
 
 
 
-LaTeX Info: Redefining \. on input line 731.
-LaTeX Info: Redefining \% on input line 731.
-[51]
+[49]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.20'
 
 
@@ -2270,13 +2263,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.20'
 
 
 
-LaTeX Info: Redefining \. on input line 826.
-LaTeX Info: Redefining \% on input line 826.
-[52]
+LaTeX Info: Redefining \. on input line 824.
+LaTeX Info: Redefining \% on input line 824.
+[50]
 
-LaTeX Info: Redefining \. on input line 960.
-LaTeX Info: Redefining \% on input line 960.
-[53]
+[51]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.27'
 
 
@@ -2288,9 +2279,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.27'
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.28'
 
 
-LaTeX Info: Redefining \. on input line 1104.
-LaTeX Info: Redefining \% on input line 1104.
-[54]
+LaTeX Info: Redefining \. on input line 1102.
+LaTeX Info: Redefining \% on input line 1102.
+[52]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.29'
 
 
@@ -2303,26 +2294,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1154.
-LaTeX Info: Redefining \% on input line 1154.
-[55]
+[53]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.30'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.31'
 
 
-LaTeX Info: Redefining \. on input line 1216.
-LaTeX Info: Redefining \% on input line 1216.
-[56]
+LaTeX Info: Redefining \. on input line 1214.
+LaTeX Info: Redefining \% on input line 1214.
+[54]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1319.
-LaTeX Info: Redefining \% on input line 1319.
-[57]
+[55]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 
@@ -2344,87 +2331,57 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 
 
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
-[58]
+LaTeX Info: Redefining \. on input line 1488.
+LaTeX Info: Redefining \% on input line 1488.
+[56]
 
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
-[59]
+[57]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.34'
 
 
-LaTeX Info: Redefining \. on input line 1563.
-LaTeX Info: Redefining \% on input line 1563.
-[60]
+LaTeX Info: Redefining \. on input line 1553.
+LaTeX Info: Redefining \% on input line 1553.
+[58]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.35'
 
-
-LaTeX Info: Redefining \. on input line 1654.
-LaTeX Info: Redefining \% on input line 1654.
-[61]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.36'
 
 
-LaTeX Info: Redefining \. on input line 1737.
-LaTeX Info: Redefining \% on input line 1737.
-[62]
+[59]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.37'
 
 
-LaTeX Info: Redefining \. on input line 1895.
-LaTeX Info: Redefining \% on input line 1895.
+LaTeX Info: Redefining \. on input line 1740.
+LaTeX Info: Redefining \% on input line 1740.
+[60]
+
+[61]
+
+LaTeX Info: Redefining \. on input line 1876.
+LaTeX Info: Redefining \% on input line 1876.
+[62]
+
 [63]
 
-LaTeX Info: Redefining \. on input line 1895.
-LaTeX Info: Redefining \% on input line 1895.
+LaTeX Info: Redefining \. on input line 2000.
+LaTeX Info: Redefining \% on input line 2000.
 [64]
 
-LaTeX Info: Redefining \. on input line 2007.
-LaTeX Info: Redefining \% on input line 2007.
 [65]
 
-LaTeX Info: Redefining \. on input line 2007.
-LaTeX Info: Redefining \% on input line 2007.
-[66]
+LaTeX Info: Redefining \. on input line 2162.
+LaTeX Info: Redefining \% on input line 2162.
+[66]) (./matrices.tex
 
-LaTeX Info: Redefining \. on input line 2138.
-LaTeX Info: Redefining \% on input line 2138.
-[67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[67
 
-
-
-LaTeX Info: Redefining \. on input line 2210.
-LaTeX Info: Redefining \% on input line 2210.
-[68]
-
-LaTeX Info: Redefining \. on input line 2249.
-LaTeX Info: Redefining \% on input line 2249.
-[69]
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 2343.
-LaTeX Info: Redefining \% on input line 2343.
-[70]
-
-LaTeX Info: Redefining \. on input line 2398.
-LaTeX Info: Redefining \% on input line 2398.
-[71]
-
-LaTeX Info: Redefining \. on input line 2517.
-LaTeX Info: Redefining \% on input line 2517.
-[72]
-
-LaTeX Info: Redefining \. on input line 2557.
-LaTeX Info: Redefining \% on input line 2557.
-[73]) (./matrices.tex
+]
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[74]
+[68
+
+]
 Capítulo 4.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -2437,9 +2394,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.4'
 
 
 
-[75
-
-]
+[69]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .9'
 
@@ -2479,7 +2434,7 @@ Underfull \vbox (badness 1142) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
-[76]
+[70]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.15'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2488,7 +2443,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 240.
 LaTeX Info: Redefining \% on input line 240.
-[77]
+[71]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.16'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2497,17 +2452,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 369.
 LaTeX Info: Redefining \% on input line 369.
-[78]
+[72]
 
 LaTeX Info: Redefining \. on input line 515.
 LaTeX Info: Redefining \% on input line 515.
-[79]
+[73]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.17'
 
 
 LaTeX Info: Redefining \. on input line 597.
 LaTeX Info: Redefining \% on input line 597.
-[80]
+[74]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.18'
 
 Overfull \hbox (5.0883pt too wide) detected at line 645
@@ -2520,13 +2475,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.19'
 
 LaTeX Info: Redefining \. on input line 671.
 LaTeX Info: Redefining \% on input line 671.
-[81]
+[75]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.20'
 
 
 LaTeX Info: Redefining \. on input line 749.
 LaTeX Info: Redefining \% on input line 749.
-[82]
+[76]
 Underfull \hbox (badness 2717) in paragraph at lines 777--785
 []\TU/lmr/m/n/12 La ma-triz de ven-ta de fru-ta en to-tal es $[] \OT1/cmr/m/n/1
 2 = [] [] =
@@ -2539,61 +2494,61 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 
 LaTeX Info: Redefining \. on input line 822.
 LaTeX Info: Redefining \% on input line 822.
-[83]
+[77]
 
 LaTeX Info: Redefining \. on input line 872.
 LaTeX Info: Redefining \% on input line 872.
-[84]
+[78]
 
 LaTeX Info: Redefining \. on input line 933.
 LaTeX Info: Redefining \% on input line 933.
-[85]
+[79]
 
 LaTeX Info: Redefining \. on input line 1020.
 LaTeX Info: Redefining \% on input line 1020.
-[86]
+[80]
 
 LaTeX Info: Redefining \. on input line 1089.
 LaTeX Info: Redefining \% on input line 1089.
-[87]
+[81]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
 line 1139.
 
 
 LaTeX Info: Redefining \. on input line 1165.
 LaTeX Info: Redefining \% on input line 1165.
-[88]
+[82]
 
 LaTeX Info: Redefining \. on input line 1217.
 LaTeX Info: Redefining \% on input line 1217.
-[89]
+[83]
 
 LaTeX Info: Redefining \. on input line 1281.
 LaTeX Info: Redefining \% on input line 1281.
-[90]
+[84]
 
 LaTeX Info: Redefining \. on input line 1393.
 LaTeX Info: Redefining \% on input line 1393.
-[91]
+[85]
 Underfull \vbox (badness 1127) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 1408.
 LaTeX Info: Redefining \% on input line 1408.
-[92]
+[86]
 
 LaTeX Info: Redefining \. on input line 1502.
 LaTeX Info: Redefining \% on input line 1502.
-[93]
+[87]
 
 LaTeX Info: Redefining \. on input line 1631.
 LaTeX Info: Redefining \% on input line 1631.
-[94]
+[88]
 
 LaTeX Info: Redefining \. on input line 1718.
 LaTeX Info: Redefining \% on input line 1718.
-[95]
+[89]
 Overfull \hbox (8.72856pt too wide) in paragraph at lines 1726--1731
 [][]\TU/lmr/bx/n/12 Teo-re-ma 4.72 \TU/lmr/m/n/12 (Re-gla de Sa-rrus pa-ra ma-tr
 i-ces $\OT1/cmr/m/n/12 3 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 3$\TU/lmr/m/n/12 )\
@@ -2605,44 +2560,44 @@ TU/lmr/bx/n/12 . []\TU/lmr/m/it/12 El de-ter-mi-nan-te de una ma-triz $\OML/cmm
 
 LaTeX Info: Redefining \. on input line 1830.
 LaTeX Info: Redefining \% on input line 1830.
-[96]
+[90]
 Underfull \vbox (badness 2600) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 1918.
 LaTeX Info: Redefining \% on input line 1918.
-[97]
+[91]
 
 LaTeX Info: Redefining \. on input line 1980.
 LaTeX Info: Redefining \% on input line 1980.
-[98]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2038.
 LaTeX Info: Redefining \% on input line 2038.
-[99]
+[93]
 
 LaTeX Info: Redefining \. on input line 2098.
 LaTeX Info: Redefining \% on input line 2098.
-[100]
+[94]
 
 LaTeX Info: Redefining \. on input line 2140.
 LaTeX Info: Redefining \% on input line 2140.
-[101]
+[95]
 
 LaTeX Info: Redefining \. on input line 2246.
 LaTeX Info: Redefining \% on input line 2246.
-[102]
+[96]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2348.
 LaTeX Info: Redefining \% on input line 2348.
-[103]
+[97]
 
 
 
@@ -2655,22 +2610,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2440.
 LaTeX Info: Redefining \% on input line 2440.
-[104]
+[98]
 
 LaTeX Info: Redefining \. on input line 2490.
 LaTeX Info: Redefining \% on input line 2490.
-[105]
+[99]
 
 LaTeX Info: Redefining \. on input line 2619.
 LaTeX Info: Redefining \% on input line 2619.
-[106]
+[100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2656.
 LaTeX Info: Redefining \% on input line 2656.
-[107]
+[101]
 
 
 
@@ -2680,7 +2635,7 @@ LaTeX Info: Redefining \% on input line 2656.
 
 LaTeX Info: Redefining \. on input line 2734.
 LaTeX Info: Redefining \% on input line 2734.
-[108]
+[102]
 
 
 
@@ -2692,30 +2647,30 @@ LaTeX Info: Redefining \% on input line 2734.
 
 LaTeX Info: Redefining \. on input line 2850.
 LaTeX Info: Redefining \% on input line 2850.
-[109]
+[103]
 
 LaTeX Info: Redefining \. on input line 2877.
 LaTeX Info: Redefining \% on input line 2877.
-[110]
+[104]
 
 LaTeX Info: Redefining \. on input line 3027.
 LaTeX Info: Redefining \% on input line 3027.
-[111]
+[105]
 
 LaTeX Info: Redefining \. on input line 3073.
 LaTeX Info: Redefining \% on input line 3073.
-[112]
+[106]
 Underfull \vbox (badness 4967) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 3167.
 LaTeX Info: Redefining \% on input line 3167.
-[113]) (./sel.tex
+[107]) (./sel.tex
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[114]
+[108]
 Capítulo 5.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -2728,7 +2683,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .3'
 
 
-[115
+[109
 
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -2740,7 +2695,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.6'
 
 LaTeX Info: Redefining \. on input line 160.
 LaTeX Info: Redefining \% on input line 160.
-[116]
+[110]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.8'
 
 
@@ -2748,59 +2703,59 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[117]
+[111]
 
 LaTeX Info: Redefining \. on input line 345.
 LaTeX Info: Redefining \% on input line 345.
-[118]
+[112]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .11'
 
 
-[119]
+[113]
 
 LaTeX Info: Redefining \. on input line 468.
 LaTeX Info: Redefining \% on input line 468.
-[120]
+[114]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.14
 '
 
 
-[121]
+[115]
 
 LaTeX Info: Redefining \. on input line 598.
 LaTeX Info: Redefining \% on input line 598.
-[122]
+[116]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.18
 '
 
 
-[123]
+[117]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.19'
 
 
 LaTeX Info: Redefining \. on input line 758.
 LaTeX Info: Redefining \% on input line 758.
-[124]
+[118]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.20'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[125]
+[119]
 
 LaTeX Info: Redefining \. on input line 934.
 LaTeX Info: Redefining \% on input line 934.
-[126]
+[120]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.21'
 
 
-[127]
+[121]
 
 LaTeX Info: Redefining \. on input line 1067.
 LaTeX Info: Redefining \% on input line 1067.
-[128]
+[122]
 
 
 
@@ -2808,7 +2763,7 @@ LaTeX Info: Redefining \% on input line 1067.
 
 
 
-[129]
+[123]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.24'
 
 
@@ -2820,17 +2775,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.24'
 
 LaTeX Info: Redefining \. on input line 1290.
 LaTeX Info: Redefining \% on input line 1290.
-[130]
+[124]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.25'
 
 
-[131]
+[125]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.26'
 
 
 LaTeX Info: Redefining \. on input line 1457.
 LaTeX Info: Redefining \% on input line 1457.
-[132]
+[126]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.27'
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1507
@@ -2850,34 +2805,34 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1507
 
 
 
-[133]
+[127]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.28'
 
 
 LaTeX Info: Redefining \. on input line 1644.
 LaTeX Info: Redefining \% on input line 1644.
-[134]
+[128]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.29'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[135]
+[129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 1770.
 LaTeX Info: Redefining \% on input line 1770.
-[136]
+[130]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.30'
 
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
 
 
-[137]
+[131]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.31'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
@@ -2885,13 +2840,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 LaTeX Info: Redefining \. on input line 1958.
 LaTeX Info: Redefining \% on input line 1958.
-[138]
+[132]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.34'
 
 
-[139]
+[133]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.35'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.36'
@@ -2899,11 +2854,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.36'
 
 LaTeX Info: Redefining \. on input line 2151.
 LaTeX Info: Redefining \% on input line 2151.
-[140]
+[134]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.37'
 
 
-[141]
+[135]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.38'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2912,20 +2867,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2359.
 LaTeX Info: Redefining \% on input line 2359.
-[142]
+[136]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.39'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[143]
+[137]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.40'
 
 
 LaTeX Info: Redefining \. on input line 2542.
 LaTeX Info: Redefining \% on input line 2542.
-[144]
+[138]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.41'
 
 
@@ -2935,14 +2890,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.41'
 
 
 
-[145]
+[139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2725.
 LaTeX Info: Redefining \% on input line 2725.
-[146]
+[140]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.42'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.43'
@@ -2961,9 +2916,7 @@ Overfull \vbox (8.90186pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2792.
 LaTeX Info: Redefining \% on input line 2792.
-[147]
-warning  (pdf backend): ignoring duplicate destination with the name 'prob.45'
-
+[141]
 
 
 
@@ -2976,15 +2929,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2919.
 LaTeX Info: Redefining \% on input line 2919.
-[148]) (./espaciosvectoriales.tex
+[142]) (./espaciosvectoriales.tex
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[149]
+[143]
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[150
+[144
 
 ]
 Capítulo 6.
@@ -2995,7 +2948,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 warning  (pdf backend): ignoring duplicate destination with the name 'rem.2'
 
 
-[151]
+[145]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.4'
 
 
@@ -3011,11 +2964,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.8'
 
 LaTeX Info: Redefining \. on input line 161.
 LaTeX Info: Redefining \% on input line 161.
-[152]
+[146]
 
 LaTeX Info: Redefining \. on input line 161.
 LaTeX Info: Redefining \% on input line 161.
-[153]
+[147]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .9'
 
@@ -3026,7 +2979,7 @@ ine 197.
 
 LaTeX Info: Redefining \. on input line 201.
 LaTeX Info: Redefining \% on input line 201.
-[154]
+[148]
 warning  (pdf backend): ignoring duplicate destination with the name 'rem.13'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'example.14
@@ -3046,7 +2999,7 @@ Underfull \vbox (badness 2351) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
-[155]
+[149]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.17
 '
 
@@ -3056,7 +3009,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.18
 
 LaTeX Info: Redefining \. on input line 277.
 LaTeX Info: Redefining \% on input line 277.
-[156]
+[150]
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 308.
 
@@ -3072,7 +3025,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 
 LaTeX Info: Redefining \. on input line 333.
 LaTeX Info: Redefining \% on input line 333.
-[157]
+[151]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.23
 '
 
@@ -3093,14 +3046,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.25
 
 LaTeX Info: Redefining \. on input line 416.
 LaTeX Info: Redefining \% on input line 416.
-[158]
+[152]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .27'
 
 
 LaTeX Info: Redefining \. on input line 468.
 LaTeX Info: Redefining \% on input line 468.
-[159]
+[153]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .30'
 
@@ -3109,7 +3062,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 LaTeX Info: Redefining \. on input line 518.
 LaTeX Info: Redefining \% on input line 518.
-[160]
+[154]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.34'
@@ -3119,7 +3072,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.35'
 
 LaTeX Info: Redefining \. on input line 569.
 LaTeX Info: Redefining \% on input line 569.
-[161]
+[155]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .37'
 
@@ -3135,14 +3088,14 @@ Underfull \hbox (badness 6220) in paragraph at lines 602--620
 
 LaTeX Info: Redefining \. on input line 623.
 LaTeX Info: Redefining \% on input line 623.
-[162]
+[156]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .41'
 
 
 LaTeX Info: Redefining \. on input line 674.
 LaTeX Info: Redefining \% on input line 674.
-[163]
+[157]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .47'
 
@@ -3151,7 +3104,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.48'
 
 LaTeX Info: Redefining \. on input line 729.
 LaTeX Info: Redefining \% on input line 729.
-[164]
+[158]
 Underfull \hbox (badness 2443) in paragraph at lines 745--751
 []\TU/lmr/m/n/12 Con-si-de-re-mos los vec-to-res ca-nó-ni-cos $\OML/cmm/m/it/1
 2 e[] \OT1/cmr/m/n/12 = (1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 
@@ -3165,11 +3118,11 @@ n/12 . Ve-ri-fi-ca-mos
 
 LaTeX Info: Redefining \. on input line 790.
 LaTeX Info: Redefining \% on input line 790.
-[165]
+[159]
 
 LaTeX Info: Redefining \. on input line 835.
 LaTeX Info: Redefining \% on input line 835.
-[166]
+[160]
 Underfull \hbox (badness 1142) in paragraph at lines 855--856
 []\TU/lmr/m/n/12 Con $\OML/cmm/m/it/12 x[]$ \TU/lmr/m/n/12 co-mo va-ria-ble li-b
 re: $\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]\OML/cmm/m/it
@@ -3186,14 +3139,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.57
 
 LaTeX Info: Redefining \. on input line 888.
 LaTeX Info: Redefining \% on input line 888.
-[167]
+[161]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.59
 '
 
 
 LaTeX Info: Redefining \. on input line 944.
 LaTeX Info: Redefining \% on input line 944.
-[168]
+[162]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.62'
 
 Underfull \vbox (badness 3291) has occurred while \output is active []
@@ -3202,28 +3155,28 @@ Underfull \vbox (badness 3291) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 984.
 LaTeX Info: Redefining \% on input line 984.
-[169]
+[163]
 Underfull \vbox (badness 2744) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 1034.
 LaTeX Info: Redefining \% on input line 1034.
-[170]
+[164]
 
 LaTeX Info: Redefining \. on input line 1076.
 LaTeX Info: Redefining \% on input line 1076.
-[171]
+[165]
 
 LaTeX Info: Redefining \. on input line 1125.
 LaTeX Info: Redefining \% on input line 1125.
-[172]
+[166]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.76'
 
 
 LaTeX Info: Redefining \. on input line 1198.
 LaTeX Info: Redefining \% on input line 1198.
-[173]
+[167]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.82'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.83'
@@ -3231,7 +3184,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.83'
 
 LaTeX Info: Redefining \. on input line 1259.
 LaTeX Info: Redefining \% on input line 1259.
-[174]
+[168]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.84'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.85'
@@ -3243,11 +3196,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.87'
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[175]
+[169]
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[176
+[170
 
 ]
 Capítulo 7.
@@ -3268,7 +3221,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .5'
 
 
-[177]
+[171]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .7'
 
@@ -3284,9 +3237,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.11
 
 LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
-[178]
+[172]
 
-[179]
+[173]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.16
 '
 
@@ -3297,9 +3250,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.18'
 
 LaTeX Info: Redefining \. on input line 271.
 LaTeX Info: Redefining \% on input line 271.
-[180]
+[174]
 
-[181]
+[175]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.22
 '
 
@@ -3312,7 +3265,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 
 LaTeX Info: Redefining \. on input line 408.
 LaTeX Info: Redefining \% on input line 408.
-[182]
+[176]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.26
 '
 
@@ -3331,7 +3284,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.29
 '
 
 
-[183]
+[177]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.30'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.31'
@@ -3339,7 +3292,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.31'
 
 LaTeX Info: Redefining \. on input line 550.
 LaTeX Info: Redefining \% on input line 550.
-[184]
+[178]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 Underfull \hbox (badness 10000) in paragraph at lines 565--568
@@ -3356,7 +3309,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[185]
+[179]
 Overfull \hbox (8.64235pt too wide) detected at line 629
 []
  []
@@ -3368,7 +3321,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.34
 
 LaTeX Info: Redefining \. on input line 654.
 LaTeX Info: Redefining \% on input line 654.
-[186]
+[180]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .35'
 
@@ -3376,14 +3329,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.36
 '
 
 
-[187]
+[181]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.39
 '
 
 
 LaTeX Info: Redefining \. on input line 792.
 LaTeX Info: Redefining \% on input line 792.
-[188]
+[182]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.40
 '
 
@@ -3391,7 +3344,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.42
 '
 
 
-[189]
+[183]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.43'
 
 Overfull \hbox (25.1189pt too wide) detected at line 954
@@ -3402,7 +3355,7 @@ Overfull \hbox (25.1189pt too wide) detected at line 954
 
 LaTeX Info: Redefining \. on input line 1000.
 LaTeX Info: Redefining \% on input line 1000.
-[190]
+[184]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.44'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -3424,7 +3377,7 @@ Underfull \vbox (badness 3758) has occurred while \output is active []
 
 
 
-[191]
+[185]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.48'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.49'
@@ -3432,11 +3385,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.49'
 
 LaTeX Info: Redefining \. on input line 1104.
 LaTeX Info: Redefining \% on input line 1104.
-[192]
+[186]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.50'
 
 
-[193]
+[187]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.51'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.52'
@@ -3446,21 +3399,21 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.53'
 
 LaTeX Info: Redefining \. on input line 1274.
 LaTeX Info: Redefining \% on input line 1274.
-[194]
+[188]
 
-[195]
+[189]
 
 LaTeX Info: Redefining \. on input line 1420.
 LaTeX Info: Redefining \% on input line 1420.
-[196]
+[190]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.61'
 ) (./vvpropios.tex
 
-[197]
+[191]
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[198
+[192
 
 ]
 Capítulo 8.
@@ -3475,26 +3428,26 @@ warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .3'
 
 
-[199]
+[193]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.8'
 
 
 
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
-[200]
+[194]
 Underfull \vbox (badness 7273) has occurred while \output is active []
 
 
 
-[201]
+[195]
 Underfull \vbox (badness 7379) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 337.
 LaTeX Info: Redefining \% on input line 337.
-[202]
+[196]
 warning  (pdf backend): ignoring duplicate destination with the name 'rem.10'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -3504,7 +3457,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.12
 '
 
 
-[203]
+[197]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.13
 '
 
@@ -3514,7 +3467,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.14
 
 LaTeX Info: Redefining \. on input line 455.
 LaTeX Info: Redefining \% on input line 455.
-[204]
+[198]
 warning  (pdf backend): ignoring duplicate destination with the name 'rem.15'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'example.16
@@ -3523,11 +3476,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.16
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.17'
 
 
-[205]
+[199]
 
 LaTeX Info: Redefining \. on input line 639.
 LaTeX Info: Redefining \% on input line 639.
-[206]
+[200]
 Overfull \hbox (17.56372pt too wide) detected at line 766
  $\OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = 1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/1
 2 C[][] []C[] \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \O
@@ -3541,25 +3494,25 @@ mr/m/n/12 = 2  =[]\OMS/cmsy/m/n/12 )  \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 C[] \OT
 
 
 
-[207]
+[201]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.21
 '
 
 
 LaTeX Info: Redefining \. on input line 813.
 LaTeX Info: Redefining \% on input line 813.
-[208]
+[202]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.22'
 
 
-[209]
+[203]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.23
 '
 
 
 LaTeX Info: Redefining \. on input line 915.
 LaTeX Info: Redefining \% on input line 915.
-[210]
+[204]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.24'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.25'
@@ -3567,7 +3520,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.25'
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.26'
 
 
-[211]
+[205]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.27'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3576,13 +3529,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1046.
 LaTeX Info: Redefining \% on input line 1046.
-[212]
+[206]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.28'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.29'
 
 
-[213]
+[207]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.30'
 
 Overfull \hbox (73.64662pt too wide) detected at line 1130
@@ -3605,17 +3558,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 LaTeX Info: Redefining \. on input line 1183.
 LaTeX Info: Redefining \% on input line 1183.
-[214]
+[208]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 
-[215]
+[209]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.34'
 
 
 LaTeX Info: Redefining \. on input line 1308.
 LaTeX Info: Redefining \% on input line 1308.
-[216]
+[210]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .35'
 
@@ -3637,14 +3590,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.44
 
 LaTeX Info: Redefining \. on input line 1390.
 LaTeX Info: Redefining \% on input line 1390.
-[217]
+[211]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.45
 '
 ) (./translineales.tex
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[218]
+[212]
 Capítulo 9.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
@@ -3654,7 +3607,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.2'
 
 
 
-[219
+[213
 
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.4'
@@ -3663,7 +3616,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.4'
 
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
-[220]
+[214]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.5'
 
 
@@ -3679,7 +3632,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.8'
 
 LaTeX Info: Redefining \. on input line 152.
 LaTeX Info: Redefining \% on input line 152.
-[221]
+[215]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .9'
 
@@ -3689,7 +3642,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.10
 
 LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
-[222]
+[216]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .11'
 
@@ -3714,7 +3667,7 @@ LaTeX Font Warning: Font shape `TU/lmr/m/scit' undefined
 
 LaTeX Info: Redefining \. on input line 274.
 LaTeX Info: Redefining \% on input line 274.
-[223]
+[217]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.14
 '
 
@@ -3743,7 +3696,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'theorem.18
 
 LaTeX Info: Redefining \. on input line 346.
 LaTeX Info: Redefining \% on input line 346.
-[224]
+[218]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .19'
 
@@ -3756,7 +3709,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'example.21
 
 LaTeX Info: Redefining \. on input line 412.
 LaTeX Info: Redefining \% on input line 412.
-[225]
+[219]
 warning  (pdf backend): ignoring duplicate destination with the name 'definition
 .22'
 
@@ -3771,14 +3724,14 @@ Overfull \hbox (2.5303pt too wide) detected at line 474
 
 LaTeX Info: Redefining \. on input line 491.
 LaTeX Info: Redefining \% on input line 491.
-[226]
+[220]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.25
 '
 
 
 LaTeX Info: Redefining \. on input line 543.
 LaTeX Info: Redefining \% on input line 543.
-[227]
+[221]
 warning  (pdf backend): ignoring duplicate destination with the name 'theorem.28
 '
 
@@ -3793,45 +3746,45 @@ ces $[]\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 )) = 0$\TU/lmr/m/n
 
 LaTeX Info: Redefining \. on input line 591.
 LaTeX Info: Redefining \% on input line 591.
-[228]
+[222]
 
 LaTeX Info: Redefining \. on input line 649.
 LaTeX Info: Redefining \% on input line 649.
-[229]
+[223]
 
 LaTeX Info: Redefining \. on input line 718.
 LaTeX Info: Redefining \% on input line 718.
-[230]
+[224]
 warning  (pdf backend): ignoring duplicate destination with the name 'example.31
 '
 
 
 LaTeX Info: Redefining \. on input line 795.
 LaTeX Info: Redefining \% on input line 795.
-[231]
+[225]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.32'
 
 
 LaTeX Info: Redefining \. on input line 853.
 LaTeX Info: Redefining \% on input line 853.
-[232]
+[226]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.33'
 
 
 LaTeX Info: Redefining \. on input line 933.
 LaTeX Info: Redefining \% on input line 933.
-[233]
+[227]
 
 LaTeX Info: Redefining \. on input line 1012.
 LaTeX Info: Redefining \% on input line 1012.
-[234]
+[228]
 Underfull \vbox (badness 1635) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 1071.
 LaTeX Info: Redefining \% on input line 1071.
-[235]
+[229]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.34'
 
 Underfull \vbox (badness 2150) has occurred while \output is active []
@@ -3840,7 +3793,7 @@ Underfull \vbox (badness 2150) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1175.
 LaTeX Info: Redefining \% on input line 1175.
-[236]
+[230]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.35'
 
 Overfull \hbox (69.77736pt too wide) detected at line 1221
@@ -3868,11 +3821,11 @@ Overfull \hbox (17.0939pt too wide) detected at line 1238
 
 LaTeX Info: Redefining \. on input line 1282.
 LaTeX Info: Redefining \% on input line 1282.
-[237]
+[231]
 
 LaTeX Info: Redefining \. on input line 1282.
 LaTeX Info: Redefining \% on input line 1282.
-[238]
+[232]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.36'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.37'
@@ -3880,7 +3833,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.37'
 
 LaTeX Info: Redefining \. on input line 1387.
 LaTeX Info: Redefining \% on input line 1387.
-[239
+[233
 
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.38'
@@ -3891,7 +3844,7 @@ Underfull \vbox (badness 7504) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1412.
 LaTeX Info: Redefining \% on input line 1412.
-[240]
+[234]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.39'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.40'
@@ -3901,7 +3854,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.41'
 
 LaTeX Info: Redefining \. on input line 1508.
 LaTeX Info: Redefining \% on input line 1508.
-[241]
+[235]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.42'
 
 Underfull \vbox (badness 7344) has occurred while \output is active []
@@ -3910,13 +3863,13 @@ Underfull \vbox (badness 7344) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1543.
 LaTeX Info: Redefining \% on input line 1543.
-[242]
+[236]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.43'
 
 
 LaTeX Info: Redefining \. on input line 1588.
 LaTeX Info: Redefining \% on input line 1588.
-[243]
+[237]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.44'
 
 Overfull \hbox (63.24297pt too wide) detected at line 1608
@@ -3946,11 +3899,11 @@ Underfull \vbox (badness 6559) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1733.
 LaTeX Info: Redefining \% on input line 1733.
-[244]
+[238]
 
 LaTeX Info: Redefining \. on input line 1733.
 LaTeX Info: Redefining \% on input line 1733.
-[245]
+[239]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.46'
 
 Overfull \hbox (108.77223pt too wide) detected at line 1744
@@ -3972,13 +3925,13 @@ Underfull \vbox (badness 2662) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1840.
 LaTeX Info: Redefining \% on input line 1840.
-[246]
+[240]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.48'
 
 
 LaTeX Info: Redefining \. on input line 1875.
 LaTeX Info: Redefining \% on input line 1875.
-[247]
+[241]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.49'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.50'
@@ -3986,24 +3939,24 @@ warning  (pdf backend): ignoring duplicate destination with the name 'prob.50'
 
 LaTeX Info: Redefining \. on input line 1960.
 LaTeX Info: Redefining \% on input line 1960.
-[248]
+[242]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.51'
 
 
 LaTeX Info: Redefining \. on input line 2063.
 LaTeX Info: Redefining \% on input line 2063.
-[249]
+[243]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2113.
 LaTeX Info: Redefining \% on input line 2113.
-[250]
+[244]
 
 LaTeX Info: Redefining \. on input line 2187.
 LaTeX Info: Redefining \% on input line 2187.
-[251]
+[245]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.52'
 
 Underfull \hbox (badness 10000) in paragraph at lines 2278--2278
@@ -4018,33 +3971,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2280.
 LaTeX Info: Redefining \% on input line 2280.
-[252]
+[246]
 Underfull \vbox (badness 7433) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2375.
 LaTeX Info: Redefining \% on input line 2375.
-[253]
+[247]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Info: Redefining \. on input line 2470.
 LaTeX Info: Redefining \% on input line 2470.
-[254]
+[248]
 warning  (pdf backend): ignoring duplicate destination with the name 'prob.53'
 
 
 LaTeX Info: Redefining \. on input line 2527.
 LaTeX Info: Redefining \% on input line 2527.
-[255]) (./anfalearNotasLineal.bbl
+[249]) (./anfalearNotasLineal.bbl
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[256])
+[250])
 
-[257
+[251
 
 ]
 \tf@loe=\write8
@@ -4062,30 +4015,22 @@ L3 programming layer <2025-06-09>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `anfalearNotasLineal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `anfalearNotasLineal.out':
-(rerunfilecheck)             Before: 537C2CC7BA2316C56BE90CC9A164904A;6154
-(rerunfilecheck)             After:  E153E4D66DB9A7B8620DD390A62E3360;5996.
+Package rerunfilecheck Info: File `anfalearNotasLineal.out' has not changed.
+(rerunfilecheck)             Checksum: D72E40BBB1526932B9D47FEBB895F5EE;5840.
 )
 
 Here is how much of LuaTeX's memory you used:
- 69228 strings out of 470205
- 195342,2848258 words of node,token memory allocated
- 8664 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 2443 attribute, 101 glue
-_spec, 1259 attribute_list, 2 write, 24 pdf_literal, 7 pdf_action, 24 pdf_colors
+ 69209 strings out of 470205
+ 195344,2848258 words of node,token memory allocated
+ 7932 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 2199 attribute, 101 glue
+_spec, 1137 attribute_list, 2 write, 24 pdf_literal, 7 pdf_action, 24 pdf_colors
 tack nodes
-   avail lists: 1:18,2:6447,3:3183,4:331,5:1466,6:190,7:10329,8:113,9:4035,10:29
+   avail lists: 1:18,2:6447,3:3078,4:332,5:1466,6:190,7:10329,8:113,9:4035,10:29
 ,11:1061
- 94135 multiletter control sequences out of 65536+600000
+ 94124 multiletter control sequences out of 65536+600000
  132 fonts using 9769887 bytes
- 76i,22n,95p,1147b,2955s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'section.3.2'
+ 76i,22n,95p,1147b,2953s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/anfalear/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroma
 ncaps10-oblique.otf><c:/users/anfalear/appdata/local/programs/miktex/fonts/opent
 ype/public/lm/lmroman8-italic.otf><c:/users/anfalear/appdata/local/programs/mikt
@@ -4127,9 +4072,9 @@ pfb><C:/Users/anfalear/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /latxfont/line10.pfb><C:/Users/anfalear/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/symbols/msam10.pfb><C:/Users/anfalear/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on anfalearNotasLineal.pdf (257 pages, 2090767 bytes).
+Output written on anfalearNotasLineal.pdf (251 pages, 2060870 bytes).
 
-PDF statistics: 3994 PDF objects out of 4296 (max. 8388607)
- 1987 named destinations out of 2073 (max. 131072)
- 542 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 3961 PDF objects out of 4296 (max. 8388607)
+ 1979 named destinations out of 2073 (max. 131072)
+ 526 words of extra memory for PDF output out of 10000 (max. 100000000)
 

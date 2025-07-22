@@ -723,7 +723,7 @@ Por lo tanto, la opción correcta es la \textbf{(c)}.
 
 \end{prob}
 
-\begin{prob} En el plano complejo, represente el conjunto de números complejos $z$ tales que:
+\begin{prob}\label{comprepex} En el plano complejo, represente el conjunto de números complejos $z$ tales que:
 $$\dfrac{4\pi}{6}\leq\text{arg}(z)\leq\dfrac{5\pi}{6} \text{ y } |z|<3$$
 \begin{myproof}
 Queremos representar el conjunto de números complejos $z$ tales que
@@ -736,7 +736,8 @@ Geométricamente, esto es un sector circular de radio $3$, centrado en el origen
 
 A continuación se muestra la gráfica de la región:
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{tikzpicture}[scale=1.1]
     % Ejes
     \draw[->] (-3.5,0) -- (3.5,0) node[right] {Re$\{z\}$};
@@ -761,7 +762,8 @@ A continuación se muestra la gráfica de la región:
     \draw (0,1.5) arc (90:120:1.5) node[left] {$\frac{2\pi}{3}$};
     \draw (0,1.5) arc (90:150:1.5) node[above left] {$\frac{5\pi}{6}$};
 \end{tikzpicture}
-\end{center}
+\caption{Representación de la región del problema \ref{comprepex}}
+\end{figure}
 
 Por lo tanto, el conjunto pedido es el sector sombreado en la figura, correspondiente a los números complejos con argumento entre $\frac{2\pi}{3}$ y $\frac{5\pi}{6}$ y módulo menor que $3$.
 \end{myproof}
@@ -811,30 +813,21 @@ Analicemos la ubicación aproximada de cada número pedido, usando la informaci�
 Ahora ubicamos cada número:
 
 \begin{enumerate}[a)]
-\item $\dfrac{1}{z}$
+\item $\dfrac{1}{z}:$ Como $|z|=1$, $\frac{1}{z} = \overline{z}$, es decir, el conjugado de $z$. Así, $\frac{1}{z}$ estará en el primer cuadrante, sobre el círculo unitario, pero reflejado respecto al eje real aproximadamente en $(\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
 
-Para $|z|=1$, $\frac{1}{z} = \overline{z}$, es decir, el conjugado de $z$. Así, $\frac{1}{z}$ estará en el primer cuadrante, sobre el círculo unitario, pero reflejado respecto al eje real: en $(\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
+\item $(1+i)z:$ Multiplicar por $1+i$ equivale a multiplicar el módulo por $\sqrt{2}$ y girar $45^\circ$. Como $z$ ya está a $45^\circ$, sumamos $45^\circ$ y obtenemos $90^\circ$ (es decir, sobre el eje imaginario positivo) y el módulo es $1 \cdot \sqrt{2} = \sqrt{2}$. Así, $(1+i)z$ estará en el eje $i$, a una distancia $\sqrt{2}$ del origen.
 
-\item $(1+i)z$
+\item $\overline{w}:$ El conjugado de $w$ se obtiene reflejando $w$ respecto al eje real. Así, $\overline{w}$ estará en el cuarto cuadrante, en el punto $(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
 
-Multiplicar por $1+i$ equivale a multiplicar el módulo por $\sqrt{2}$ y girar $45^\circ$. Como $z$ ya está a $45^\circ$, sumamos $45^\circ$ y obtenemos $90^\circ$ (es decir, sobre el eje imaginario positivo) y el módulo es $1 \cdot \sqrt{2} = \sqrt{2}$. Así, $(1+i)z$ estará en el eje $i$, a una distancia $\sqrt{2}$ del origen.
+\item $-z$ es el opuesto de $z$, es decir, el mismo módulo pero dirección opuesta: estará en el tercer cuadrante, en $(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
 
-\item $\overline{w}$
-
-El conjugado de $w$ se obtiene reflejando $w$ respecto al eje real. Así, $\overline{w}$ estará en el cuarto cuadrante, en el punto $(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
-
-\item $-z$
-
-$-z$ es el opuesto de $z$, es decir, el mismo módulo pero dirección opuesta: estará en el tercer cuadrante, en $(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$.
-
-\item $w^2$
-
-$w$ tiene módulo $1$ y argumento $135^\circ$ ($\frac{3\pi}{4}$). Al elevar al cuadrado, el módulo sigue siendo $1$ y el argumento se duplica: $2 \cdot 135^\circ = 270^\circ$ ($\frac{3\pi}{2}$), que corresponde al eje imaginario negativo, es decir, en $-i$.
+\item Como $w$ tiene módulo $1$ y argumento $135^\circ$ ($\frac{3\pi}{4}$), al elevar al cuadrado, el módulo sigue siendo $1$ y el argumento se duplica: $2 \cdot 135^\circ = 270^\circ$ ($\frac{3\pi}{2}$), que corresponde al eje imaginario negativo, es decir, en $-i$.
 \end{enumerate}
 
 A continuación se muestra la figura con las ubicaciones aproximadas:
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{tikzpicture}[scale=1.5]
     % Ejes coordenados
     \draw[->] (-1.3,0) -- (1.5,0) node[above left] {Re};
@@ -876,7 +869,8 @@ A continuación se muestra la figura con las ubicaciones aproximadas:
     \draw[->, thick, purple] (0,0) -- (0,-1);
     \node[purple] at (0.2,-1.1) {$w^2$};
 \end{tikzpicture}
-\end{center}
+\caption{Solución del problema \ref{compubicacion}}
+\end{figure}
 
 Así, cada número queda representado en la figura en su ubicación aproximada.
 \end{myproof}
@@ -885,19 +879,13 @@ Así, cada número queda representado en la figura en su ubicación aproximada.
 	
 \begin{prob} La ecuación $2z^4+2z^2+1=0$ tiene una raíz compleja $z$ con argumento entre $\pi$ y $\dfrac{3\pi}{2}$. Determine el argumento de $z$.
 \begin{myproof}
-Primero, reescribimos la ecuación:
-\[
-2z^4 + 2z^2 + 1 = 0
-\]
-Dividimos entre $2$:
-\[
-z^4 + z^2 + \frac{1}{2} = 0
-\]
-Hacemos el cambio $w = z^2$:
-\[
+Primero, reescribimos la ecuación \(2z^4 + 2z^2 + 1 = 0,\) dividiendo entre $2,$ \(
+z^4 + z^2 + \frac{1}{2} = 0.\)
+
+
+Hacemos el cambio $w = z^2:$ \(
 w^2 + w + \frac{1}{2} = 0
-\]
-Resolvemos la ecuación cuadrática:
+\) y resolvemos la ecuación cuadrática:
 \[
 w = \frac{-1 \pm \sqrt{1 - 2}}{2} = \frac{-1 \pm i}{2}
 \]
@@ -906,100 +894,59 @@ Ahora, buscamos $z$ tal que $z^2 = w$ y su argumento esté entre $\pi$ y $\frac{
 
 Tomamos $w_1 = \frac{-1 + i}{2}$ y $w_2 = \frac{-1 - i}{2}$.
 
-Calculamos el argumento de $w_1$:
-\[
-\arg(w_1) = \arctan\left(\frac{1}{-1}\right) = \arctan(-1)
-\]
-Como $w_1$ está en el segundo cuadrante, su argumento es:
-\[
-\pi - \frac{\pi}{4} = \frac{3\pi}{4}
-\]
-El módulo de $w_1$ es:
-\[
-|w_1| = \sqrt{\left(\frac{-1}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{1}{\sqrt{2}}
-\]
+Calculamos el argumento de $w_1$: \(
+\arg(w_1) = \arctan\left(\frac{1}{-1}\right) = \arctan(-1).\)
 
-Las raíces cuadradas de $w_1$ son:
-\[
-z = \left(\frac{1}{\sqrt{2}}\right)^{1/2} \exp\left(i \frac{\frac{3\pi}{4} + 2k\pi}{2}\right), \quad k=0,1
-\]
-\[
-|z| = \left(\frac{1}{\sqrt{2}}\right)^{1/2} = 2^{-1/4} \approx 0.8409
-\]
-Los argumentos posibles son:
-\[
+
+Como $w_1$ está en el segundo cuadrante, su argumento es: \(\pi - \frac{\pi}{4} = \frac{3\pi}{4} \) y su módulo es: \[|w_1| = \sqrt{\left(\frac{-1}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{1}{\sqrt{2}}.\]
+
+Las raíces cuadradas de $w_1$ son: \(
+z = \left(\frac{1}{\sqrt{2}}\right)^{1/2} e^{\left(i \dfrac{\frac{3\pi}{4} + 2k\pi}{2}\right)}, \quad k=0,1
+\)
+
+Los argumentos posibles son: \(
 \theta_1 = \frac{3\pi}{8}, \quad \theta_2 = \frac{3\pi}{8} + \pi = \frac{11\pi}{8}
-\]
+\)
 
-Ahora, $\frac{11\pi}{8}$ está entre $\pi$ y $\frac{3\pi}{2}$.
-
-Por lo tanto, el argumento de la raíz $z$ pedida es:
-\[
+Ahora, como $\frac{11\pi}{8}$ está entre $\pi$ y $\frac{3\pi}{2},$  el argumento de la raíz $z$ pedida es: \(
 \boxed{\frac{11\pi}{8}}
-\]
-
-Numéricamente,
-\[
-\frac{11\pi}{8} \approx 4.32
-\]
+\)
 \end{myproof}
 
 \end{prob}		
 
 \begin{prob}Use la fórmula de De Moivre para encontrar todas las raíces complejas del polinomio $z^6-11(i+1)z^3+121i=0$.
 \begin{myproof}
-Dada la ecuación:
-\[
+Dada la ecuación \(
 z^6 - 11(1+i)z^3 + 121i = 0
-\]
-Hacemos el cambio $w = z^3$, así que la ecuación se convierte en:
+\) hacemos el cambio $w = z^3$, así que la ecuación se convierte en:
 \[
 w^2 - 11(1+i)w + 121i = 0
 \]
-Resolvemos la ecuación cuadrática para $w$:
-\[
-w = \frac{11(1+i) \pm \sqrt{[11(1+i)]^2 - 4 \cdot 121i}}{2}
-\]
-Calculamos el discriminante:
-\[
-[11(1+i)]^2 = 121(1 + 2i + i^2) = 121(1 + 2i - 1) = 242i
-\]
-\[
--4 \cdot 121i = -484i
-\]
-\[
-\text{Discriminante} = 242i - 484i = -242i
-\]
-\[
-\sqrt{-242i} = \sqrt{242} \cdot \sqrt{-i}
-\]
-Sabemos que $\sqrt{-i} = \frac{1-i}{\sqrt{2}}$, así que:
-\[
-\sqrt{-242i} = \sqrt{242} \cdot \frac{1-i}{\sqrt{2}} = 11(1-i)
-\]
-Por lo tanto, las raíces para $w$ son:
-\[
-w_1 = \frac{11(1+i) + 11(1-i)}{2} = \frac{11(2)}{2} = 11
-\]
-\[
-w_2 = \frac{11(1+i) - 11(1-i)}{2} = \frac{11(2i)}{2} = 11i
-\]
+Usando factor común por agrupación: \begin{align*}
+w^2 - 11(1+i)w + 121i &= 0 \\
+w^2 - 11w - 11iw + 121i &= 0 \\
+(w^2 - 11w) - (11iw - 121i) &= 0 \\
+w(w - 11) -11i(w - 11) &= 0 \\
+(w - 11)(w - 11i) &= 0
+\end{align*}
 
-Ahora resolvemos $z^3 = w$ para cada $w$:
+Por lo tanto, las raíces para $w$ son: \(
+w_1 = 11 \) y \(w_2 = 11i.\) Ahora resolvemos $z^3 = w$ para cada $w$:
 
 \textbf{Para $w_1 = 11$:}
 \[
-z^3 = 11 \implies z = 11^{1/3} \cdot e^{i\frac{2\pi k}{3}}, \quad k=0,1,2
+z^3 = 11 \implies z = 11^{1/3} \cdot e^{i\dfrac{2\pi k}{3}}, \quad k=0,1,2
 \]
 Esto da las tres raíces:
 \[
 z_1 = 11^{1/3}
 \]
 \[
-z_2 = 11^{1/3} \cdot e^{i\frac{2\pi}{3}} = 11^{1/3} \left(-\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)
+z_2 = 11^{1/3} \cdot e^{i\dfrac{2\pi}{3}} = 11^{1/3} \left(-\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)
 \]
 \[
-z_3 = 11^{1/3} \cdot e^{i\frac{4\pi}{3}} = 11^{1/3} \left(-\frac{1}{2} - i\frac{\sqrt{3}}{2}\right)
+z_3 = 11^{1/3} \cdot e^{i\dfrac{4\pi}{3}} = 11^{1/3} \left(-\frac{1}{2} - i\frac{\sqrt{3}}{2}\right)
 \]
 
 \textbf{Para $w_2 = 11i$:}
@@ -1008,14 +955,14 @@ w_2 = 11i = 11 e^{i\frac{\pi}{2}}
 \]
 Entonces,
 \[
-z^3 = 11i \implies z = 11^{1/3} e^{i\frac{\frac{\pi}{2} + 2\pi k}{3}}, \quad k=0,1,2
+z^3 = 11i \implies z = 11^{1/3} e^{i\dfrac{\frac{\pi}{2} + 2\pi k}{3}}, \quad k=0,1,2
 \]
 Esto da las tres raíces:
 \[
-z_4 = 11^{1/3} e^{i\frac{\pi}{6}} = 11^{1/3} \left(\frac{\sqrt{3}}{2} + i\frac{1}{2}\right)
+z_4 = 11^{1/3} e^{i\dfrac{\pi}{6}} = 11^{1/3} \left(\frac{\sqrt{3}}{2} + i\frac{1}{2}\right)
 \]
 \[
-z_5 = 11^{1/3} e^{i\frac{5\pi}{6}} = 11^{1/3} \left(-\frac{\sqrt{3}}{2} + i\frac{1}{2}\right)
+z_5 = 11^{1/3} e^{i\dfrac{5\pi}{6}} = 11^{1/3} \left(-\frac{\sqrt{3}}{2} + i\frac{1}{2}\right)
 \]
 \[
 z_6 = 11^{1/3} e^{i\frac{3\pi}{2}} = 11^{1/3} (-i)
@@ -1305,70 +1252,15 @@ Encuentre la forma polar de los siguientes números complejos. ¿Cuál es el efe
 \item $z=8$
 \end{enumerate}
 \end{multicols}
-\begin{myproof}
-Analicemos cada número complejo:
+\begin{myproof} Multiplicar por un número complejo $re^{i\theta}$ equivale a: Multiplicar el módulo por $r$ (dilatar o contraer la distancia al origen) y sumar $\theta$ al argumento (girar en sentido antihorario). Por otro lado, dividir equivale a dividir el módulo entre $r$ y restar $\theta$ al argumento (girar en sentido horario). Analicemos cada número complejo:
 
-\textbf{a) $z = 3 + i$}
+\textbf{a) $z = 3 + i:$} El módulo es $r = \sqrt{3^2 + 1^2} = \sqrt{10}$ y su argumento es $\theta = \arctan\left(\frac{1}{3}\right)$.  Así, la forma polar es \(
+  z = \sqrt{10} \, e^{i\arctan(1/3)}. \) El efecto geométrico de multiplicar por $z$ será multiplicar el módulo por $\sqrt{10}$ y girar el ángulo $\arctan(1/3)$ en sentido antihorario, mientras que dividir por $z$ implica dividir el módulo entre $\sqrt{10}$ y gira el ángulo $-\arctan(1/3)$ en sentido horario.
 
-- \textbf{Forma polar:}  
-  El módulo es $r = \sqrt{3^2 + 1^2} = \sqrt{10}$.  
-  El argumento es $\theta = \arctan\left(\frac{1}{3}\right)$.
+\textbf{b) $z = 5 - i:$} El módulo es $r = \sqrt{5^2 + (-1)^2} = \sqrt{26}$ y su  argumento es $\theta = \arctan\left(\frac{-1}{5}\right)$. Así, la forma polar es \(
+  z = \sqrt{26} \, e^{i\arctan(-1/5)}.\) El efecto geométrico de multiplicar por $z$ será multiplicar el módulo por $\sqrt{26}$ y girar el ángulo $\arctan(-1/5)$ en sentido antihorario mientras que dividir por $z$ divide el módulo entre $\sqrt{26}$ y gira el ángulo $-\arctan(-1/5)$ en sentido horario.
 
-  Así, la forma polar es:
-  \[
-  z = \sqrt{10} \, e^{i\arctan(1/3)}
-  \]
-  o bien,
-  \[
-  z = \sqrt{10} \left( \cos\theta + i\sin\theta \right), \quad \theta = \arctan\left(\frac{1}{3}\right)
-  \]
-
-- \textbf{Efecto geométrico:}
-  - \textit{Multiplicar por $z$}: Multiplica el módulo por $\sqrt{10}$ y gira el ángulo $\arctan(1/3)$ en sentido antihorario.
-  - \textit{Dividir por $z$}: Divide el módulo entre $\sqrt{10}$ y gira el ángulo $-\arctan(1/3)$ en sentido horario.
-
-\vspace{1em}
-
-\textbf{b) $z = 5 - i$}
-
-- \textbf{Forma polar:}  
-  El módulo es $r = \sqrt{5^2 + (-1)^2} = \sqrt{26}$.  
-  El argumento es $\theta = \arctan\left(\frac{-1}{5}\right)$.
-
-  Así, la forma polar es:
-  \[
-  z = \sqrt{26} \, e^{i\arctan(-1/5)}
-  \]
-  o bien,
-  \[
-  z = \sqrt{26} \left( \cos\theta + i\sin\theta \right), \quad \theta = \arctan\left(\frac{-1}{5}\right)
-  \]
-
-- \textbf{Efecto geométrico:}
-  - \textit{Multiplicar por $z$}: Multiplica el módulo por $\sqrt{26}$ y gira el ángulo $\arctan(-1/5)$ en sentido antihorario.
-  - \textit{Dividir por $z$}: Divide el módulo entre $\sqrt{26}$ y gira el ángulo $-\arctan(-1/5)$ en sentido horario.
-
-\vspace{1em}
-
-\textbf{c) $z = 8$}
-
-- \textbf{Forma polar:}  
-  El módulo es $r = 8$.  
-  El argumento es $\theta = 0$.
-
-  Así, la forma polar es:
-  \[
-  z = 8\, e^{i\cdot 0} = 8
-  \]
-
-- \textbf{Efecto geométrico:}
-  - \textit{Multiplicar por $z$}: Multiplica el módulo por $8$ y no gira el ángulo (no hay rotación).
-  - \textit{Dividir por $z$}: Divide el módulo entre $8$ y no hay rotación.
-
-\vspace{1em}
-
-\textbf{Justificación:}  
-Multiplicar por un número complejo $re^{i\theta}$ equivale a: Multiplicar el módulo por $r$ (dilatar o contraer la distancia al origen) y sumar $\theta$ al argumento (girar en sentido antihorario). Por otro lado, dividir equivale a dividir el módulo entre $r$ y restar $\theta$ al argumento (girar en sentido horario).
+\textbf{c) $z = 8:$} El módulo es $r = 8$ y el argumento es $\theta = 0$. Así, la forma polar es \(z = 8\, e^{i\cdot 0} = 8.\) El efecto geométrico de multiplicar por $z$ será multiplicar el módulo por $8$ y no gira el ángulo (no hay rotación) mientras que para dividir por $z$ se divide el módulo entre $8$ y no hay rotación.
 
 \end{myproof}
 
@@ -1384,22 +1276,11 @@ Multiplicar por un número complejo $re^{i\theta}$ equivale a: Multiplicar el m�
 \begin{myproof}
 Vamos a encontrar las raíces cuartas de cada número complejo usando la fórmula de De Moivre.
 
-\textbf{a) $z = -27$}
-
-Primero, escribimos $-27$ en forma polar:
-- Módulo: $r = 27$
-- Argumento: $\theta = \pi$ (pues $-27$ está sobre el eje real negativo)
-
-Las raíces cuartas de $z$ son:
+\textbf{a) $z = -27:$} El módulo es $r = 27$ y el argumento es $\theta = \pi$ (pues $-27$ está sobre el eje real negativo). Las raíces cuartas de $z$ son:
 \[
-w_k = 27^{1/4} \cdot e^{i\frac{\pi + 2\pi k}{4}}, \quad k = 0,1,2,3
+w_k = 27^{1/4} \cdot e^{i\dfrac{\pi + 2\pi k}{4}}, \quad k = 0,1,2,3
 \]
-Calculamos $27^{1/4} = 3^{3/4} = \sqrt{3\sqrt{3}}$.
 
-Los argumentos son:
-\[
-\theta_k = \frac{\pi}{4} + \frac{\pi k}{2}
-\]
 Por lo tanto, las raíces cuartas son:
 \[
 \boxed{
@@ -1412,36 +1293,15 @@ w_3 &= 27^{1/4} \, e^{i\frac{7\pi}{4}} = 27^{1/4} \left(\frac{\sqrt{2}}{2} - i\f
 }
 \]
 
-\vspace{1em}
-
-\textbf{b) $z = -7 + 24i$}
-
-Primero, escribimos $z$ en forma polar:
-- Módulo: $r = \sqrt{(-7)^2 + 24^2} = \sqrt{49 + 576} = \sqrt{625} = 25$
-- Argumento: $\theta = \arctan\left(\frac{24}{-7}\right)$
-
-Como $-7 < 0$ y $24 > 0$, el número está en el segundo cuadrante. El argumento es:
-\[
+\textbf{b) $z = -7 + 24i:$} El módulo: $r = \sqrt{(-7)^2 + 24^2} = \sqrt{49 + 576} = \sqrt{625} = 25.$  Como $-7 < 0$ y $24 > 0$, el número está en el segundo cuadrante. El argumento es \(
 \theta = \pi - \arctan\left(\frac{24}{7}\right)
-\]
+\)
 
 Las raíces cuartas de $z$ son:
-\[
-w_k = 25^{1/4} \cdot e^{i\frac{\theta + 2\pi k}{4}}, \quad k = 0,1,2,3
-\]
-\[
-25^{1/4} = \sqrt{5}
-\]
-
-Por lo tanto, las raíces cuartas son:
 \[
 \boxed{
 w_k = \sqrt{5} \cdot e^{i\left(\frac{\pi - \arctan\left(\frac{24}{7}\right)}{4} + \frac{\pi k}{2}\right)}, \quad k = 0,1,2,3
 }
-\]
-O, en forma trigonométrica:
-\[
-w_k = \sqrt{5} \left[ \cos\left(\frac{\pi - \arctan\left(\frac{24}{7}\right)}{4} + \frac{\pi k}{2} \right) + i \sin\left(\frac{\pi - \arctan\left(\frac{24}{7}\right)}{4} + \frac{\pi k}{2} \right) \right]
 \]
 para $k = 0,1,2,3$.
 
@@ -1456,28 +1316,17 @@ para $k = 0,1,2,3$.
 \item $z^3-27i=0$
 \item $z^5-1-i=0$
 \item $(2-3i)z^6+1+5i=0$
-\item $z^{10}+(-2+i)z^5-2i=0$
 \end{enumerate}
 \end{multicols}
 \begin{myproof}
 Resolvamos cada inciso usando la fórmula de De Moivre.
 
-\textbf{a) $z^4 + 16 = 0$}
+\textbf{a)} $z^4 + 16 = 0\Rightarrow z^4 = -16 = 16 e^{i\pi}$
 
-\[
-z^4 = -16 = 16 e^{i\pi}
-\]
+Las raíces cuartas son: \(
+z_k = 16^{1/4} e^{i \dfrac{\pi + 2\pi k}{4}}, \quad k = 0,1,2,3
+\)
 
-Las raíces cuartas son:
-\[
-z_k = 16^{1/4} e^{i \frac{\pi + 2\pi k}{4}}, \quad k = 0,1,2,3
-\]
-\[
-16^{1/4} = 2
-\]
-\[
-z_k = 2\, e^{i \left( \frac{\pi}{4} + \frac{\pi k}{2} \right ) }
-\]
 Explícitamente:
 \[
 \boxed{
@@ -1492,21 +1341,10 @@ z_3 &= 2 e^{i\frac{7\pi}{4}} = \sqrt{2} - i\sqrt{2}
 
 \vspace{1em}
 
-\textbf{b) $z^3 - 27i = 0$}
-
-\[
-z^3 = 27i = 27 e^{i\frac{\pi}{2}}
-\]
-Las raíces cúbicas son:
-\[
-z_k = 27^{1/3} e^{i \frac{\frac{\pi}{2} + 2\pi k}{3}}, \quad k=0,1,2
-\]
-\[
-27^{1/3} = 3
-\]
-\[
-z_k = 3\, e^{i \left( \frac{\pi}{6} + \frac{2\pi k}{3} \right )}
-\]
+\textbf{b)} $z^3 - 27i = 0 \Rightarrow z^3 = 27i = 27 e^{i\frac{\pi}{2}}.$
+Las raíces cúbicas son \( z_k = 27^{1/3} e^{i \dfrac{\frac{\pi}{2} + 2\pi k}{3}}, \quad k=0,1,2.
+\)
+Explícitamente: 
 \[
 \boxed{
 \begin{aligned}
@@ -1517,33 +1355,18 @@ z_2 &= 3 e^{i\frac{3\pi}{2}} = -3i
 }
 \]
 
-\vspace{1em}
 
-\textbf{c) $z^5 - 1 - i = 0$}
-
-\[
-z^5 = 1 + i = \sqrt{2} e^{i\frac{\pi}{4}}
-\]
-Las raíces quintas son:
-\[
-z_k = 2^{1/10} e^{i \frac{\frac{\pi}{4} + 2\pi k}{5}}, \quad k=0,1,2,3,4
-\]
+\textbf{c)} $z^5 - 1 - i = 0\Rightarrow z^5 = 1 + i = \sqrt{2} e^{i\frac{\pi}{4}}.$ Las raíces quintas son 
 \[
 \boxed{
-z_k = 2^{1/10} \, e^{i\left( \frac{\pi}{20} + \frac{2\pi k}{5} \right ) }, \quad k=0,1,2,3,4
+z_k = 2^{1/10} \, e^{i\left( \dfrac{\pi}{20} + \dfrac{2\pi k}{5} \right ) }, \quad k=0,1,2,3,4
 }
 \]
 
-\vspace{1em}
 
-\textbf{d) $(2-3i)z^6 + 1 + 5i = 0$}
+\textbf{d)} $(2-3i)z^6 + 1 + 5i = 0\Rightarrow (2-3i)z^6 = -1 - 5i\Rightarrow z^6 = \frac{-1 - 5i}{2 - 3i}.$
 
-\[
-(2-3i)z^6 = -1 - 5i
-\]
-\[
-z^6 = \frac{-1 - 5i}{2 - 3i}
-\]
+
 Multiplicamos numerador y denominador por el conjugado del denominador:
 \[
 \frac{-1 - 5i}{2 - 3i} \cdot \frac{2 + 3i}{2 + 3i} = \frac{(-1 - 5i)(2 + 3i)}{(2)^2 + (3)^2}
@@ -1559,64 +1382,8 @@ z^6 = \frac{13 - 13i}{13} = 1 - i = \sqrt{2} e^{-i\frac{\pi}{4}}
 \]
 Las raíces sextas son:
 \[
-z_k = 2^{1/12} e^{i \frac{ -\frac{\pi}{4} + 2\pi k }{6}}, \quad k=0,1,2,3,4,5
-\]
-\[
 \boxed{
 z_k = 2^{1/12} \, e^{i\left( -\frac{\pi}{24} + \frac{\pi k}{3} \right ) }, \quad k=0,1,2,3,4,5
-}
-\]
-
-\vspace{1em}
-
-\textbf{e) $z^{10} + (-2 + i)z^5 - 2i = 0$}
-
-Sea $w = z^5$, entonces:
-\[
-w^2 + (-2 + i)w - 2i = 0
-\]
-Resolvemos la cuadrática:
-\[
-w = \frac{2 - i \pm \sqrt{(-2 + i)^2 - 4(-2i)}}{2}
-\]
-Calculamos el discriminante:
-\[
-(-2 + i)^2 = 4 - 4i + i^2 = 4 - 4i - 1 = 3 - 4i
-\]
-\[
--4(-2i) = 8i
-\]
-\[
-\text{Discriminante} = (3 - 4i) + 8i = 3 + 4i
-\]
-Ahora, $\sqrt{3 + 4i} = 2 + i$ (puedes verificarlo elevando al cuadrado).
-
-Entonces:
-\[
-w_1 = \frac{2 - i + 2 + i}{2} = \frac{4}{2} = 2
-\]
-\[
-w_2 = \frac{2 - i - (2 + i)}{2} = \frac{2 - i - 2 - i}{2} = \frac{-2i}{2} = -i
-\]
-
-Ahora, $z^5 = 2$ y $z^5 = -i$.
-
-Para $z^5 = 2 = 2 e^{i0}$:
-\[
-z_k = 2^{1/5} e^{i \frac{2\pi k}{5}}, \quad k=0,1,2,3,4
-\]
-
-Para $z^5 = -i = e^{-i\frac{\pi}{2}}$:
-\[
-z_k = e^{i \frac{ -\frac{\pi}{2} + 2\pi k }{5 } }, \quad k=0,1,2,3,4
-\]
-
-\[
-\boxed{
-\begin{aligned}
-&z_k = 2^{1/5} e^{i \frac{2\pi k}{5}}, \quad k=0,1,2,3,4 \\
-&z_k = e^{i \left( -\frac{\pi}{10} + \frac{2\pi k}{5} \right ) }, \quad k=0,1,2,3,4
-\end{aligned}
 }
 \]
 

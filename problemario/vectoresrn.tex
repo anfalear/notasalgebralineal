@@ -2,8 +2,6 @@
 
 Los vectores son objetos matemáticos fundamentales que representan magnitudes con dirección y sentido. Se utilizan para describir desplazamientos, fuerzas, velocidades y campos tanto en física como en geometría. Los vectores permiten modelar cantidades como aceleración, momento angular y fuerza, además de visualizar segmentos dirigidos en el espacio. Este capítulo explora estos objetos y muestra cómo su estudio permite resolver problemas de la vida real.
 
-\section{Propiedades básicas}
-
 Los vectores tienen dos representaciones equivalentes: como flechas en el espacio y como listas ordenadas de números ($n$-tuplas). La perspectiva geométrica revela propiedades importantes que pueden observarse en el video \textit{Vectores, ¿qué son? | Esencia del álgebra lineal, capítulo 1} del canal 3Blue1Brown en YouTube (\url{https://youtu.be/wiuEEkP_XuM?feature=shared}).
 
 \begin{definition}[Suma y producto por escalar de vectores de manera geométrica]\label{defvectoresgeometrica}
@@ -1216,7 +1214,7 @@ Como la última fila es combinación lineal de las dos primeras, el determinante
 \end{myproof}	
 \end{prob}
 
-\begin{prob}[Examen 3 - Vectores, semestre 2022 - 2](\cite{espinoza2006Algebralineal}, p. 87, Problema 78)  
+\begin{prob}(\cite{espinoza2006Algebralineal}, p. 87, Problema 78)  
 Un rayo de luz viaja por la recta $l=\{(2,0,1)+t(-1,-1,0)\}$. Al chocar con el plano $2x-y+z+2=0$ se refleja. Hallar la recta $l_1$ que contiene el rayo reflejado.
 
 \begin{figure}[H]
@@ -1319,8 +1317,7 @@ Por lo cual, la recta por la cual está reflejado el rayo es $\boxed{(-5,-7,1)+t
 \end{myproof}
 \end{prob}
 
-\begin{prob}[Examen 3 - Vectores, semestre 2022 - 2] 
-Sean $A=(5,1,2)$, $B=(2,8,4)$ y $C=(1,-3,7)$ los vértices de un triángulo.
+\begin{prob} Sean $A=(5,1,2)$, $B=(2,8,4)$ y $C=(1,-3,7)$ los vértices de un triángulo.
 
 \begin{enumerate}[a)]
 \item Calcular el área del triángulo $\triangle ABC$.
@@ -1515,15 +1512,12 @@ El producto punto es:
 Ambos sumandos son negativos, así que la suma es negativa.  
 Por lo tanto, $\mathbf{u} \cdot \mathbf{v} < 0$.
 
-\vspace{1em}
 
 \item \textbf{Si $\|\mathbf{u}+\mathbf{v}\|=\|\mathbf{u}\|+\|\mathbf{v}\|$, entonces existe un escalar $k$ tal que $\mathbf{u}=k\mathbf{v}$ o $\mathbf{v}=k\mathbf{u}$.}
 
 \textbf{Verdadera.}  
 La igualdad se cumple si y sólo si $\mathbf{u}$ y $\mathbf{v}$ son vectores en la misma dirección (o uno es múltiplo escalar del otro) y ambos apuntan en el mismo sentido (no opuestos).  
 Esto es consecuencia de la igualdad en la desigualdad triangular.
-
-\vspace{1em}
 
 \item \textbf{Dada la ecuación vectorial $3(2\mathbf{v}-\mathbf{x})=5\mathbf{x}-4\mathbf{w}+\mathbf{v}$, donde $\mathbf{v}$ y $\mathbf{w}$ son vectores dados, determine si es posible resolverla para $\mathbf{x}$.}
 
@@ -1546,14 +1540,10 @@ Despejando:
 \]
 Por lo tanto, sí es posible.
 
-\vspace{1em}
-
 \item \textbf{En $\mathbb{R}^2$, los vectores que tienen norma $5$ y cuyo punto inicial está en el origen tienen su punto final sobre la circunferencia de radio $5$ centrada en el origen.}
 
 \textbf{Verdadera.}  
 Por definición, el conjunto de puntos a distancia $5$ del origen es la circunferencia de radio $5$ centrada en el origen.
-
-\vspace{1em}
 
 \item \textbf{Si $\mathbf{a}+\mathbf{x}=\mathbf{x}$ para vectores $\mathbf{a}$ y $\mathbf{x}$ en $\mathbb{R}^3$, entonces $\mathbf{a}=\mathbf{0}$.}
 
@@ -1566,47 +1556,19 @@ Restando $\mathbf{x}$ en ambos lados: $\mathbf{a} = \mathbf{0}$.
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 85, Problema 64) Determine la ecuación de un plano que cumple las siguientes condiciones: pasa por el punto $(3,1,-1)$, es perpendicular al plano $2x-2y+z+4=0$ y su intersección con el eje $z$ es el punto $(0,0,-3)$. 
 
-\textbf{Solución:} $5x+y-8z=24$.
-
 \begin{myproof}
-Llamemos $\pi$ al plano buscado. Queremos encontrar su ecuación general:
-\[
-ax + by + cz = d
-\]
-donde $(a,b,c)$ es el vector normal al plano.
-
-**Condiciones dadas:**
-1. El plano pasa por el punto $P = (3,1,-1)$.
-2. Es perpendicular al plano $\pi_1: 2x-2y+z+4=0$.
-3. Su intersección con el eje $z$ es el punto $Q = (0,0,-3)$.
-
-**Paso 1.**  
-Si dos planos son perpendiculares, sus vectores normales son ortogonales.  
-El vector normal de $\pi_1$ es $\vec{n}_1 = (2,-2,1)$.  
-El vector normal del plano buscado será $\vec{n} = (a,b,c)$, y debe cumplir:
+Llamemos $\pi$ al plano buscado. Queremos encontrar su ecuación general \(
+ax + by + cz = d \) donde $(a,b,c)$ es el vector normal al plano. Las condiciones dadas son que el plano pasa por el punto $P = (3,1,-1), $ es perpendicular al plano $\pi_1: 2x-2y+z+4=0$ y su intersección con el eje $z$ es el punto $Q = (0,0,-3)$. Si dos planos son perpendiculares, sus vectores normales son ortogonales, es decir, si el vector normal de $\pi_1$ es $\vec{n}_1 = (2,-2,1)$ entonces el vector normal del plano buscado será $\vec{n} = (a,b,c)$, y debe cumplir:
 \[
 \vec{n} \cdot \vec{n}_1 = 0 \implies 2a - 2b + c = 0
 \]
 
-**Paso 2.**  
-El plano contiene el punto $P = (3,1,-1)$:
-\[
-a(3) + b(1) + c(-1) = d
-\implies 3a + b - c = d
-\]
+Como el plano contiene el punto $P = (3,1,-1)$ debe cumplirse que \(
+a(3) + b(1) + c(-1) = d \implies 3a + b - c = d.\)
 
-**Paso 3.**  
-El plano contiene el punto $Q = (0,0,-3)$:
-\[
-a(0) + b(0) + c(-3) = d
-\implies -3c = d
-\]
+Por otra parte el plano contiene el punto $Q = (0,0,-3),$ así, \(a(0) + b(0) + c(-3) = d \implies -3c = d \)
 
-**Paso 4.**  
-Igualando las dos expresiones para $d$:
-\[
-3a + b - c = -3c \implies 3a + b + 2c = 0
-\]
+Al igualar las dos expresiones para $d$ se tiene que \(3a + b - c = -3c \implies 3a + b + 2c = 0 \)
 
 Ahora tenemos el sistema:
 \[
@@ -1616,9 +1578,8 @@ Ahora tenemos el sistema:
 \end{cases}
 \]
 
-**Resolviendo el sistema:**
 
-De la primera ecuación:
+Resolviendo el sistema por igualación se tiene que de la primera ecuación:
 \[
 2a - 2b + c = 0 \implies c = -2a + 2b
 \]
@@ -1633,21 +1594,7 @@ Luego,
 c = -2a + 2b = -2(5b) + 2b = -10b + 2b = -8b
 \]
 
-Tomando $b = 1$ (cualquier múltiplo sirve), obtenemos:
-\[
-a = 5,\quad b = 1,\quad c = -8
-\]
-El valor de $d$:
-\[
-d = -3c = -3(-8) = 24
-\]
-
-**Ecuación del plano:**
-\[
-5x + y - 8z = 24
-\]
-
-\textbf{Por lo tanto, la ecuación buscada es:}
+Tomando $b = 1$ (cualquier múltiplo sirve), obtenemos \(a = 5,\quad b = 1,\quad c = -8 \) y con el valor \(d = -3c = -3(-8) = 24\) se obtiene la ecuación del plano 
 \[
 \boxed{5x + y - 8z = 24}
 \]
@@ -1656,27 +1603,17 @@ d = -3c = -3(-8) = 24
 \end{prob}
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 86, Problema 76) Halle la ecuación del plano que contiene al punto $(5,0,-4)$ y a la recta $\frac{x-3}{-1}=\frac{y+5}{1}=\frac{z+2}{1}$. 
-
-\textbf{Solución:} $x+z=1$.
-
 \begin{myproof}
-Queremos hallar la ecuación del plano que contiene al punto $P = (5,0,-4)$ y a la recta
-\[
-\frac{x-3}{-1} = \frac{y+5}{1} = \frac{z+2}{1}.
-\]
+Queremos hallar la ecuación del plano que contiene al punto $P = (5,0,-4)$ y a la recta \(\frac{x-3}{-1} = \frac{y+5}{1} = \frac{z+2}{1}.\)
 
 Primero, escribimos la ecuación de la recta en forma paramétrica. Sea $t \in \mathbb{R}$:
 \[
 x = 3 - t, \quad y = -5 + t, \quad z = -2 + t.
 \]
 Así, un punto general de la recta es $Q(t) = (3 - t,\ -5 + t,\ -2 + t)$.  
-Tomando $t = 0$, obtenemos el punto $Q_0 = (3, -5, -2)$ sobre la recta.  
-La dirección de la recta está dada por el vector $\vec{v} = (-1,1,1)$.
+Tomando $t = 0$, obtenemos el punto $Q_0 = (3, -5, -2)$ sobre la recta la cual tiene dirección dada por el vector $\vec{v} = (-1,1,1)$.
 
-El plano buscado debe contener:
-- El punto $P = (5,0,-4)$,
-- El punto $Q_0 = (3,-5,-2)$,
-- Y el vector de dirección de la recta $\vec{v} = (-1,1,1)$.
+El plano buscado debe contener al punto $P = (5,0,-4)$, al punto $Q_0 = (3,-5,-2)$ y el vector de dirección de la recta $\vec{v} = (-1,1,1)$.
 
 Formamos dos vectores en el plano:
 \[
@@ -1730,17 +1667,13 @@ La ecuación general del plano que pasa por $P$ y tiene vector normal $\vec{n} =
 x + z = 1
 \]
 
-Por lo tanto, la ecuación del plano es:
-\[
-\boxed{x + z = 1}
-\]
+Por lo tanto, la ecuación del plano es \(\boxed{x + z = 1}.\)
 \end{myproof}
 
 \end{prob}
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 76, Problema 2) Una recta pasa por los puntos $A(-6,6,5)$ y $B(15,-6,1)$. Determine los puntos de intersección de esta recta con los planos coordenados $x=0$, $y=0$ y $z=0$. 
 
-\textbf{Solución:} Los puntos de intersección son $(0,2,-3)$, $(3,0,-2)$ y $(9,-4,0)$, respectivamente.
 \begin{myproof}
 La recta que pasa por los puntos $A(-6,6,5)$ y $B(15,-6,1)$ puede escribirse en forma paramétrica como:
 \[
@@ -1751,8 +1684,6 @@ z = 5 + (1 - 5)t = 5 - 4t
 \end{cases}
 \]
 donde $t \in \mathbb{R}$.
-
-Ahora, hallamos los puntos de intersección con los planos coordenados:
 
 \textbf{1. Intersección con el plano $x=0$:}
 
@@ -1767,70 +1698,8 @@ y = 6 - 12\left(\frac{2}{7}\right) = 6 - \frac{24}{7} = \frac{42 - 24}{7} = \fra
 \[
 z = 5 - 4\left(\frac{2}{7}\right) = 5 - \frac{8}{7} = \frac{35 - 8}{7} = \frac{27}{7} \approx 3.86
 \]
-Sin embargo, la solución propuesta es $(0,2,-3)$, así que revisamos el cálculo. Veamos si hay un error en la parametrización.
 
-\textbf{Recta paramétrica correcta:}
 
-El vector director es $\overrightarrow{AB} = (15-(-6), -6-6, 1-5) = (21, -12, -4)$.  
-La recta en forma paramétrica es:
-\[
-(x, y, z) = (-6, 6, 5) + t(21, -12, -4)
-\]
-\[
-\begin{cases}
-x = -6 + 21t \\
-y = 6 - 12t \\
-z = 5 - 4t
-\end{cases}
-\]
-
-\textbf{a) Plano $x=0$:}
-\[
-0 = -6 + 21t \implies t = \frac{6}{21} = \frac{2}{7}
-\]
-\[
-y = 6 - 12 \cdot \frac{2}{7} = 6 - \frac{24}{7} = \frac{18}{7} \\
-z = 5 - 4 \cdot \frac{2}{7} = 5 - \frac{8}{7} = \frac{27}{7}
-\]
-Pero la solución dada es $(0,2,-3)$. Por lo tanto, hay un error en la interpretación de los signos. Probemos parametrizando desde $B$ hacia $A$:
-
-\[
-(x, y, z) = (15, -6, 1) + s(-21, 12, 4)
-\]
-\[
-x = 15 - 21s \\
-y = -6 + 12s \\
-z = 1 + 4s
-\]
-Para $x=0$:
-\[
-0 = 15 - 21s \implies s = \frac{15}{21} = \frac{5}{7}
-\]
-\[
-y = -6 + 12 \cdot \frac{5}{7} = -6 + \frac{60}{7} = \frac{-42 + 60}{7} = \frac{18}{7} \\
-z = 1 + 4 \cdot \frac{5}{7} = 1 + \frac{20}{7} = \frac{27}{7}
-\]
-Esto es consistente con el cálculo anterior.
-
-Sin embargo, la solución dada es $(0,2,-3)$. Probemos con $t = \frac{1}{3}$:
-
-\[
-x = -6 + 21t = 0 \implies t = \frac{2}{7}
-\]
-\[
-y = 6 - 12t = 6 - 12 \cdot \frac{2}{7} = \frac{18}{7}
-\]
-\[
-z = 5 - 4 \cdot \frac{2}{7} = \frac{27}{7}
-\]
-La solución dada es $(0,2,-3)$. Probemos con $t = \frac{1}{3}$:
-
-\[
-x = -6 + 21 \cdot \frac{1}{3} = -6 + 7 = 1
-\]
-No coincide.
-
-En realidad, la parametrización es correcta y los puntos dados por la solución son aproximaciones redondeadas. Sigamos con el procedimiento general y escribimos las respuestas exactas:
 
 \textbf{b) Plano $y=0$:}
 \[
@@ -1840,30 +1709,7 @@ En realidad, la parametrización es correcta y los puntos dados por la solución
 x = -6 + 21 \cdot \frac{1}{2} = -6 + 10.5 = 4.5 \\
 z = 5 - 4 \cdot \frac{1}{2} = 5 - 2 = 3
 \]
-Pero la solución dada es $(3,0,-2)$. Probemos con $t = \frac{1}{3}$:
 
-\[
-y = 6 - 12 \cdot \frac{1}{3} = 6 - 4 = 2
-\]
-No coincide.
-
-Dado que la forma paramétrica es correcta, los puntos dados por la solución son aproximaciones redondeadas. Por lo tanto, los valores exactos son:
-
-\textbf{Intersección con $x=0$:}
-\[
-t_1 = \frac{6}{21} = \frac{2}{7}
-\]
-\[
-(x_1, y_1, z_1) = (0, \frac{18}{7}, \frac{27}{7})
-\]
-
-\textbf{Intersección con $y=0$:}
-\[
-t_2 = \frac{6}{12} = \frac{1}{2}
-\]
-\[
-(x_2, y_2, z_2) = (4.5, 0, 3)
-\]
 
 \textbf{Intersección con $z=0$:}
 \[
@@ -1880,7 +1726,7 @@ Por lo tanto,
 
 \textbf{Conclusión:}
 
-Los puntos de intersección exactos de la recta con los planos coordenados son:
+Los puntos de intersección de la recta con los planos coordenados son:
 \[
 \boxed{
 \begin{aligned}
@@ -1891,7 +1737,6 @@ Los puntos de intersección exactos de la recta con los planos coordenados son:
 }
 \]
 
-Si se redondean estos valores, se obtienen aproximadamente $(0,2,-3)$, $(3,0,-2)$ y $(9,-4,0)$ como en la solución propuesta.
 \end{myproof}
 
 \end{prob}
@@ -1907,45 +1752,35 @@ Queremos encontrar la distancia mínima desde el punto $P(8,6,5)$ a la recta que
 
 La recta que pasa por $A$ y $B$ tiene dirección
 \[
-\vec{AB} = B - A = (8-3,\, 3-5,\, 1-3) = (5,\,-2,\,-2)
+\overrightarrow{AB} = B - A = (8-3,\, 3-5,\, 1-3) = (5,\,-2,\,-2)
 \]
 La ecuación de la recta es:
 \[
-\vec{r}(t) = (3,5,3) + t(5,-2,-2), \quad t \in \mathbb{R}
+\overrightarrow{r}(t) = (3,5,3) + t(5,-2,-2), \quad t \in \mathbb{R}
 \]
 
 \textbf{Paso 2: Vector desde un punto de la recta hasta $P$.}
 
 Sea $Q$ un punto cualquiera de la recta, $Q = (3+5t,\, 5-2t,\, 3-2t)$.  
-El vector $\vec{PQ} = Q - P = (3+5t-8,\, 5-2t-6,\, 3-2t-5) = (5t-5,\, -2t-1,\, -2t-2)$.
+El vector $\overrightarrow{PQ} = Q - P = (3+5t-8,\, 5-2t-6,\, 3-2t-5) = (5t-5,\, -2t-1,\, -2t-2)$.
 
 \textbf{Paso 3: Distancia mínima (proyección ortogonal).}
 
-La distancia mínima se logra cuando $\vec{PQ}$ es ortogonal a la dirección de la recta, es decir,
-\[
-\vec{PQ} \cdot \vec{AB} = 0
-\]
-\[
-(5t-5,\, -2t-1,\, -2t-2) \cdot (5, -2, -2) = 0
-\]
-\[
-5(5t-5) + (-2)(-2t-1) + (-2)(-2t-2) = 0
-\]
-\[
-25t - 25 + 4t + 2 + 4t + 4 = 0
-\]
-\[
-(25t + 4t + 4t) + (-25 + 2 + 4) = 0
-\]
-\[
-33t - 19 = 0 \implies t = \frac{19}{33}
-\]
+La distancia mínima se logra cuando $\overrightarrow{PQ}$ es ortogonal a la dirección de la recta, es decir,
 
-\textbf{Paso 4: Coordenadas del punto más cercano $Q^*$.}
+\begin{align*}
+\overrightarrow{PQ} \cdot \overrightarrow{AB} &= 0\\
+(5t-5,\, -2t-1,\, -2t-2) \cdot (5, -2, -2) &= 0\\
+5(5t-5) + (-2)(-2t-1) + (-2)(-2t-2) &= 0\\
+25t - 25 + 4t + 2 + 4t + 4 &= 0\\
+(25t + 4t + 4t) + (-25 + 2 + 4) &= 0\\
+33t - 19 = 0 &\implies t = \frac{19}{33}
+\end{align*}
 
-\[
-Q^* = (3 + 5t,\, 5 - 2t,\, 3 - 2t)
-\]
+
+
+\textbf{Paso 4: Coordenadas del punto más cercano $Q^*=(3 + 5t,\, 5 - 2t,\, 3 - 2t)$}
+
 Sustituyendo $t = \frac{19}{33}$:
 \[
 x = 3 + 5 \cdot \frac{19}{33} = 3 + \frac{95}{33} = \frac{99 + 95}{33} = \frac{194}{33}
@@ -1959,189 +1794,20 @@ z = 3 - 2 \cdot \frac{19}{33} = 3 - \frac{38}{33} = \frac{99 - 38}{33} = \frac{6
 
 \textbf{Paso 5: Distancia mínima $d = |PQ^*|$.}
 
-\[
-d = \sqrt{(8 - \frac{194}{33})^2 + (6 - \frac{127}{33})^2 + (5 - \frac{61}{33})^2}
-\]
-\[
-8 - \frac{194}{33} = \frac{264 - 194}{33} = \frac{70}{33}
-\]
-\[
-6 - \frac{127}{33} = \frac{198 - 127}{33} = \frac{71}{33}
-\]
-\[
-5 - \frac{61}{33} = \frac{165 - 61}{33} = \frac{104}{33}
-\]
-Entonces,
-\[
-d = \sqrt{\left(\frac{70}{33}\right)^2 + \left(\frac{71}{33}\right)^2 + \left(\frac{104}{33}\right)^2}
-= \frac{1}{33} \sqrt{70^2 + 71^2 + 104^2}
-\]
-\[
-70^2 = 4900,\quad 71^2 = 5041,\quad 104^2 = 10816
-\]
-\[
-4900 + 5041 + 10816 = 20757
-\]
-\[
-d = \frac{1}{33}\sqrt{20757}
-\]
-Sin embargo, la solución propuesta es $\sqrt{\frac{629}{33}}$.
-
-Verifiquemos:
-\[
-\frac{1}{33}\sqrt{20757} = \sqrt{\frac{20757}{33^2}} = \sqrt{\frac{20757}{1089}}
-\]
-\[
-\frac{20757}{33} = 629
-\]
-Por lo tanto,
-\[
-d = \sqrt{\frac{629}{33}}
-\]
-
-\textbf{Respuesta:}  
-La longitud mínima que debe tener la cuerda es
-\[
-\boxed{\sqrt{\dfrac{629}{33}}}
-\]
-\end{myproof}
-
-\end{prob}
-
-\begin{prob} (\cite{espinoza2006Algebralineal}, p. 85, Problema 65) Determine la ecuación del plano que contiene a la recta $\frac{x+1}{3}=\frac{y-1}{2}=\frac{z-2}{4}$ y es perpendicular al plano $2x+y+z+4=0$. 
-
-\textbf{Solución:} $2y-z=0$.
-
-\begin{myproof}
-Queremos hallar la ecuación del plano que contiene a la recta
-\[
-\frac{x+1}{3} = \frac{y-1}{2} = \frac{z-2}{4}
-\]
-y es perpendicular al plano $2x + y + z + 4 = 0$.
-
-\textbf{Paso 1.} \quad \textit{Ecuación paramétrica de la recta}
-
-Sea $t \in \mathbb{R}$ el parámetro común:
-\[
-x + 1 = 3t \implies x = 3t - 1 \\
-y - 1 = 2t \implies y = 2t + 1 \\
-z - 2 = 4t \implies z = 4t + 2
-\]
-Entonces, un punto de la recta es $P_0 = (-1, 1, 2)$ (para $t = 0$) y el vector de dirección de la recta es $\vec{v} = (3, 2, 4)$.
-
-\textbf{Paso 2.} \quad \textit{Condición de perpendicularidad}
-
-El plano buscado es perpendicular al plano $2x + y + z + 4 = 0$.  
-El vector normal de ese plano es $\vec{n}_1 = (2, 1, 1)$.  
-Por lo tanto, el plano buscado debe tener un vector normal ortogonal a $\vec{n}_1$.
-
-Sea $\vec{n} = (a, b, c)$ el vector normal del plano buscado.  
-Entonces:
-\[
-\vec{n} \cdot \vec{n}_1 = 2a + b + c = 0
-\]
-
-Además, el plano contiene la recta, por lo que su vector normal $\vec{n}$ debe ser ortogonal al vector de dirección $\vec{v} = (3, 2, 4)$:
-\[
-\vec{n} \cdot \vec{v} = 3a + 2b + 4c = 0
-\]
-
-\textbf{Paso 3.} \quad \textit{Sistema de ecuaciones para el vector normal}
-
-Tenemos el sistema:
-\[
-\begin{cases}
-2a + b + c = 0 \\
-3a + 2b + 4c = 0
-\end{cases}
-\]
-
-Resolviendo:
-
-De la primera ecuación:
-\[
-2a + b + c = 0 \implies b = -2a - c
-\]
-
-Sustituimos en la segunda:
-\[
-3a + 2(-2a - c) + 4c = 0 \\
-3a - 4a - 2c + 4c = 0 \\
-(-a) + 2c = 0 \implies a = 2c
-\]
-
-Sustituyendo $a = 2c$ en $b = -2a - c$:
-\[
-b = -2(2c) - c = -4c - c = -5c
-\]
-
-Tomando $c = 1$ (cualquier múltiplo sirve), obtenemos:
-\[
-a = 2, \quad b = -5, \quad c = 1
-\]
-
-\textbf{Paso 4.} \quad \textit{Ecuación general del plano}
-
-El plano buscado pasa por el punto $P_0 = (-1, 1, 2)$ y tiene vector normal $(2, -5, 1)$:
-\[
-2(x + 1) - 5(y - 1) + 1(z - 2) = 0
-\]
-\[
-2x + 2 - 5y + 5 + z - 2 = 0
-\]
-\[
-2x - 5y + z + 5 = 0
-\]
-
-Sin embargo, la solución propuesta es $2y - z = 0$, que es equivalente (puede obtenerse simplificando el sistema con otra elección de múltiplo).  
-Probemos con $a = 0$ para buscar un plano más sencillo:
-
-Si $a = 0$, entonces de la primera ecuación:
-\[
-b + c = 0 \implies b = -c
-\]
-Segunda ecuación:
-\[
-2b + 4c = 0 \implies 2(-c) + 4c = 0 \implies -2c + 4c = 0 \implies 2c = 0 \implies c = 0
-\]
-Entonces $b = 0$, $c = 0$, pero esto no da un vector normal no nulo.  
-Probemos $b = 2$, $c = 1$:
-
-De la primera ecuación:
-\[
-2a + 2 + 1 = 0 \implies 2a = -3 \implies a = -\frac{3}{2}
-\]
-Segunda ecuación:
-\[
-3a + 2b + 4c = 3(-\frac{3}{2}) + 4 + 4 = -\frac{9}{2} + 4 + 4 = -\frac{9}{2} + 8 = -\frac{9}{2} + \frac{16}{2} = \frac{7}{2} \neq 0
-\]
-No es posible.  
-Por lo tanto, la ecuación obtenida antes es la más sencilla y es equivalente a $2y - z = 0$ si se escoge $a = 0$, $b = 2$, $c = -1$:
-
-\[
-2a + b + c = 0 \implies 0 + 2 + (-1) = 1 \neq 0
-\]
-Pero si tomamos $a = 0$, $b = 2$, $c = -1$:
-\[
-3a + 2b + 4c = 0 + 4 + (-4) = 0
-\]
-Y
-\[
-2a + b + c = 0 + 2 + (-1) = 1 \neq 0
-\]
-No satisface ambas ecuaciones, pero la ecuación $2y - z = 0$ contiene la recta y es perpendicular al plano dado, por lo que es una forma válida.
-
-\textbf{Respuesta:}
-\[
-\boxed{2y - z = 0}
-\]
+\begin{align*}
+d &= \sqrt{\left(8 - \frac{194}{33}\right)^2 + \left(6 - \frac{127}{33}\right)^2 + \left(5 - \frac{61}{33}\right)^2}\\
+&= \sqrt{\left(\frac{70}{33}\right)^2 + \left(\frac{71}{33}\right)^2 + \left(\frac{104}{33}\right)^2}\\
+&= \frac{1}{33} \sqrt{70^2 + 71^2 + 104^2}\\
+&= \frac{1}{33}\sqrt{20757}\\
+&= \sqrt{\frac{629}{33}}
+\end{align*}
+La longitud mínima que debe tener la cuerda es \(\boxed{\sqrt{\dfrac{629}{33}}}
+\)
 \end{myproof}
 
 \end{prob}
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 88, Problema 86) Halle la ecuación del plano que pasa por los puntos $A(1,2,-4)$, $B(4,-3,2)$ y $C(-4,5,10)$. 
-
-\textbf{Solución:} $11x+9y+2z-21=0$.
 
 \begin{myproof}
 Queremos hallar la ecuación del plano que pasa por los puntos $A(1,2,-4)$, $B(4,-3,2)$ y $C(-4,5,10)$.
@@ -2213,8 +1879,6 @@ La ecuación es:
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 80, Problema 31) Los puntos $A$, $B$, $C$ y $D$ forman un paralelogramo en ese orden. Si las coordenadas de los tres primeros puntos son $A(1,2,3)$, $B(0,-1,4)$ y $C(-1,2,6)$, determine la ecuación de la recta que pasa por los puntos $C$ y $D$. 
 
-\textbf{Solución:} $\frac{x+1}{-1}=\frac{y-2}{-3}=\frac{z-6}{1}$.
-
 \begin{myproof}
 Sean $A(1,2,3)$, $B(0,-1,4)$ y $C(-1,2,6)$ los tres primeros vértices de un paralelogramo $ABCD$ en ese orden. Queremos encontrar la ecuación de la recta que pasa por $C$ y $D$.
 
@@ -2236,11 +1900,7 @@ La recta que pasa por $C(-1,2,6)$ y $D(-2,-1,7)$ tiene vector director:
 \overrightarrow{CD} = D - C = (-2 - (-1),\ -1 - 2,\ 7 - 6) = (-1,\ -3,\ 1)
 \]
 La ecuación simétrica de la recta es:
-\[
-\frac{x + 1}{-1} = \frac{y - 2}{-3} = \frac{z - 6}{1}
-\]
 
-\textbf{Respuesta:}
 \[
 \boxed{
 \frac{x + 1}{-1} = \frac{y - 2}{-3} = \frac{z - 6}{1}
@@ -2332,21 +1992,11 @@ o, en forma simétrica:
 \frac{x - 1}{1} = \frac{y - 2}{11} = \frac{z - 3}{16}
 }
 \]
-
-\textbf{Respuesta:}  
-La ecuación de la recta buscada es
-\[
-\boxed{
-\frac{x - 1}{1} = \frac{y - 2}{11} = \frac{z - 3}{16}
-}
-\]
 \end{myproof}
 
 \end{prob}
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 76, Problema 3) La mediana de un triángulo es el segmento que une un vértice con el punto medio del lado opuesto. Dado el triángulo con vértices $A(3,6,-7)$, $B(-5,2,7)$ y $C(4,-7,-2)$, determine las ecuaciones simétricas de la mediana trazada desde el vértice $C$. 
-
-\textbf{Solución:} $\frac{x-4}{-5}=\frac{y+7}{11}=\frac{z+2}{2}$.
 
 \begin{myproof}
 Para hallar la mediana trazada desde el vértice $C$ del triángulo de vértices $A(3,6,-7)$, $B(-5,2,7)$ y $C(4,-7,-2)$, seguimos estos pasos:
@@ -2387,8 +2037,6 @@ o, multiplicando numerador y denominador por $-1$ en la primera fracción:
 \frac{x - 4}{-5} = \frac{y + 7}{11} = \frac{z + 2}{2}
 \]
 
-\textbf{Respuesta:}
-
 La ecuación simétrica de la mediana trazada desde $C$ es:
 \[
 \boxed{
@@ -2400,9 +2048,6 @@ La ecuación simétrica de la mediana trazada desde $C$ es:
 \end{prob}
 
 \begin{prob} (\cite{espinoza2006Algebralineal}, p. 77, Problema 15) La altura de un triángulo es el segmento que une un vértice con un punto del lado opuesto (o su prolongación) de manera perpendicular a dicho lado. Dado el triángulo con vértices $A(1,-2,-4)$, $B(3,1,-3)$ y $C(5,1,-7)$, determine las ecuaciones simétricas de la altura trazada desde el vértice $B$ hacia el lado $\overline{AC}$. 
-
-\textbf{Solución:} $\frac{x-3}{3}=\frac{y-1}{15}=\frac{z+3}{19}$.
-
 \begin{myproof}
 Sea el triángulo con vértices $A(1,-2,-4)$, $B(3,1,-3)$ y $C(5,1,-7)$. Queremos hallar las ecuaciones simétricas de la altura trazada desde el vértice $B$ hacia el lado $\overline{AC}$.
 
@@ -2542,13 +2187,7 @@ En la solución dada, el vector director es $(-4,\ -15,\ -2)$, que es proporcion
 
 \textbf{4. Ecuaciones simétricas de la mediatriz:}
 
-La recta pasa por el punto medio $M = (-1,\,\frac{13}{2},\,-2)$ y tiene vector director $(-4,\ -15,\ -2)$:
-
-\[
-\frac{x+1}{-4} = \frac{y - \frac{13}{2}}{-15} = \frac{z+2}{-2}
-\]
-
-\textbf{Respuesta:}
+La recta pasa por el punto medio $M = (-1,\,\frac{13}{2},\,-2)$ y tiene vector director $(-4,\ -15,\ -2)$, así la recta buscada es 
 \[
 \boxed{
 \frac{x+1}{-4} = \frac{y - \frac{13}{2}}{-15} = \frac{z+2}{-2}
