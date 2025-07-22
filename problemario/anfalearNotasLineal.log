@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.7)  22 JUL 2025 12:16
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.7)  22 JUL 2025 12:20
  restricted system commands enabled.
 **anfalearNotasLineal.tex
 (./anfalearNotasLineal.tex
@@ -4020,7 +4020,7 @@ Package rerunfilecheck Info: File `anfalearNotasLineal.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 69209 strings out of 470205
+ 69207 strings out of 470205
  195344,2848258 words of node,token memory allocated
  7932 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 2199 attribute, 101 glue
@@ -4028,7 +4028,7 @@ _spec, 1137 attribute_list, 2 write, 24 pdf_literal, 7 pdf_action, 24 pdf_colors
 tack nodes
    avail lists: 1:18,2:6447,3:3078,4:332,5:1466,6:190,7:10329,8:113,9:4035,10:29
 ,11:1061
- 94124 multiletter control sequences out of 65536+600000
+ 94122 multiletter control sequences out of 65536+600000
  132 fonts using 9769887 bytes
  76i,22n,95p,1147b,2953s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/anfalear/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroma
@@ -4072,7 +4072,7 @@ pfb><C:/Users/anfalear/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /latxfont/line10.pfb><C:/Users/anfalear/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/symbols/msam10.pfb><C:/Users/anfalear/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on anfalearNotasLineal.pdf (251 pages, 2060870 bytes).
+Output written on anfalearNotasLineal.pdf (251 pages, 2060869 bytes).
 
 PDF statistics: 3961 PDF objects out of 4296 (max. 8388607)
  1979 named destinations out of 2073 (max. 131072)
